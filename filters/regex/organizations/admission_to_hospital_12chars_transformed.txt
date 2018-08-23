@@ -1,0 +1,1 @@
+\b(?<=admission to\s|admission at\s)[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?\b

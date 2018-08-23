@@ -1,0 +1,1 @@
+\b(?i)(((?<=attending\s)|(?<=attending:\s)|(?<=attd\.\s)|(?<=fellow:\s)|(?<=fellow:[ ]{2}))(Dr\.\s)?([a-zA-Z]+(\-[a-zA-Z]+)?(\s[A-Z](\.)?)?(\,)?[ ]{1,2}[a-zA-Z]+(\s[A-Z](\.)?[A-Z]?)?\b|[A-Z]\.([A-Z]\.)?\s[A-Z][a-zA-Z]+))|([a-zA-Z]+(\-[a-zA-Z]+)?(\s[A-Z](\.)?)?(\,)?[ ]{1,2}[a-zA-Z]+(?=\/attending\s))\b

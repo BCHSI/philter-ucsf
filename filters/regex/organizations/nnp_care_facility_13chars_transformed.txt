@@ -1,0 +1,1 @@
+\b[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?(?=\sCare Facility|\sCARE FACILITY|\sDental Clinic|\sDENTAL CLINIC|\sCounty Clinic|\sCOUNTY CLINIC|\sHealth Center|\sHEALTH CENTER)\b

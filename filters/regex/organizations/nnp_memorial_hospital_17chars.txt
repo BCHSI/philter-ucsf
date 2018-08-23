@@ -1,0 +1,1 @@
+\b[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?(?=\sMemorial Hospital|\sMEMORIAL HOSPITAL|\sInternal Medicine|\sINTERNAL MEDICINE|\sConvalescent Home|\sCONVALESCENT HOME)\b

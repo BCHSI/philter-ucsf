@@ -1,0 +1,1 @@
+\b(?i)([0-9]+|one|two|three|four|five|six|seven|eight|nine|ten|few|several|couple[ ]{1,2}of)[ ]{1,2}days\b

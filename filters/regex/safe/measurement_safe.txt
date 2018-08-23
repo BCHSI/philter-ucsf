@@ -1,0 +1,1 @@
+\b(?i)(?<!\/)\d+(\.\d+)?(\-\d+(\.\d+)?)?\s((kilo)?grams|g|mg|l|ml|cup|cm|mm|mmhg|mcg|milliseconds)\b

@@ -1,0 +1,1 @@
+(?<=Mrs\.\s|MRS\.\s|Miss\s|MISS\s|Dear\s|DEAR\s)(([A-Z](\s|\.\s))?[A-Z]\'?[A-Z]?[\-aA-zZ]+(\s[A-Z]{1,2})?(\s[A-Z]\'?[A-Z]?[\-aA-zZ]+)*)

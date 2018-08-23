@@ -1,0 +1,1 @@
+\b(?i)((short|long|walking|at|a)\sdistance|distance\sof)\b

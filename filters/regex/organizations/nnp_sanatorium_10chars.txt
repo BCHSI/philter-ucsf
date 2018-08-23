@@ -1,0 +1,1 @@
+\b[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?(?=\sSanatorium|\sSANATORIUM|\sSanitarium|\sSANITARIUM|\sCardiology|\sCARDIOLOGY)\b

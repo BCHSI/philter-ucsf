@@ -1,0 +1,1 @@
+\b[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?(?=\sFamily Care|\sFAMILY CARE|\sCare Center|\sCARE CENTER)\b

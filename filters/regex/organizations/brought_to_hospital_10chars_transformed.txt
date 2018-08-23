@@ -1,0 +1,1 @@
+\b(?<=brought to\s|treated at\s)[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?\b

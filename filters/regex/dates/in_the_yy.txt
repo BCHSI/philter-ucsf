@@ -1,0 +1,1 @@
+\b(?<=\bin\sthe\s)((early\s|late\s)?|(early\s|late\s))\d{2}(\'|\'\s)?s\b

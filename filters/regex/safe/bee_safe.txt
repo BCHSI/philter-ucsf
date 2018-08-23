@@ -1,0 +1,1 @@
+\b(?i)((honey)\sbee|bee\s(venome|sting))\b

@@ -1,0 +1,1 @@
+(?<=Madam\s|MADAM\s)(([A-Z](\s|\.\s))?[A-Z]\'?[A-Z]?[\-aA-zZ]+(\s[A-Z]\'?[A-Z]?[\-aA-zZ]+)*)

@@ -1,0 +1,1 @@
+\b(([A-Z][a-zA-Z]+\-)?([A-Z][a-zA-Z]+(\'s)?\s)?[A-Z][a-zA-Z]+\s)?((?i)(pharmacy|walgreens|pharm))(\s#\d+)?\b

@@ -1,0 +1,1 @@
+\b[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?(?=\sMicrobiology|\sMICROBIOLOGY|\sNursing Home|\sNURSING HOME)\b

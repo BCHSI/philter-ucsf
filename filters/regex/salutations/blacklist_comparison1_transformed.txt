@@ -1,0 +1,1 @@
+\b(([a-zA-Z]\')?[A-Z][a-zA-Z]+(\-[A-Z][a-zA-Z]+)?(\,)([ ]{1,2})?((?i)("""+person_name+r"""))|((?i)([a-zA-Z]\')?("""+person_name+r"""))(\-[A-Z][a-zA-Z]+)?(\,)([ ]{1,2})?[A-Z][a-zA-Z]+|((?i)([a-zA-Z]\')?(\-[A-Z][a-zA-Z]+)?("""+person_name+r"""))(\,)([ ]{1,2})?[A-Z][a-zA-Z]+)\b

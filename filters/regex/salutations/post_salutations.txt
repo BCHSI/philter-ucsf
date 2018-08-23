@@ -1,0 +1,1 @@
+\b([A-Z]\'?[A-Z]?[\-aA-zZ]+(\s[A-Z](.)?)?(\s[A-Z]\'?[A-Z]?[\-aA-zZ]+)*)(?=(\s|\,\s)M\.D|M\.D\.|MD\.|MD|N\.P|N\.P\.|NP\.|NP|D\.O|D\.O\.|DO\.|DO|R\.N|R\.N\.|RN\.|RN)\b

@@ -1,0 +1,1 @@
+\b((?<=\bin\s)|(?<=\bIN\s)|(?<=\bat\s)|(?<=\bnear\s)|(?<=\bfrom\s)|(?<=\btravel\sto\s)|(?<=\bvisit\sto\s))([A-Z][a-z]+\s[A-Z][a-z]+(\s[A-Z][a-z]+)?|([A-Z]{1,3}))\b

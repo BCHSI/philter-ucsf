@@ -1,0 +1,1 @@
+\b(?i)colon\s(cancer|ca|polyp(s)?)\b

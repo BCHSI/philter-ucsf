@@ -1,0 +1,1 @@
+(?<=Dr.|DR.|Mr.|MR.|Mrs.|MRS.|Ms.|MS.|Miss|MISS|Sir|SIR|Madam|MADAM)\s([A-Z]\'?[A-Z]?[\-aA-zZ]+(\s[A-Z]\'?[A-Z]?[\-aA-zZ]+)*)

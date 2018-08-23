@@ -1,0 +1,1 @@
+\b(?i)(aren\'t|couldn\'t|didn\'t|doesn\'t|don\'t|hadn\'t|hasn\'t|haven\'t|isn\'t|mightn\'t|shouldn\'t|wasn\'t|weren\'t|won\'t|wouldn\'t)\b

@@ -1,0 +1,1 @@
+\b(?i)((year|yr\.)[ ]{1,2}old|y\.o(\.)?|yo|y\/o|year\-old|adult|young|middle-aged|elderly)[ ]{1,2}(male|man)\b

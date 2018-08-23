@@ -1,0 +1,1 @@
+\b[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?(?=\sMedical Clinic|\sMEDICAL CLINIC|\sCardiovascular|\sCARDIOVASCULAR|\sUrology Center|\sUROLOGY CENTER|\sNursing Center|\sNURSING CENTER|\sMedical Center|\sMEDICAL CENTER|\sAdult Medicine|\sADULT MEDICINE|\sEmergency Dept|\sEMERGENCY DEPT|\sEmergency Room|\sEMERGENCY ROOM)\b
