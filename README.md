@@ -1,46 +1,12 @@
-# Running Philter
+# Running Philter from the command line
 
-## Production mode
+## Production Mode (no ground truth annotations required)
 ```bash
-python3 main.py -i "./data/i2b2_notes_test/" -o "./data/i2b2_results_test/" --prod=True
+python3 main.py -i "./data/i2b2_notes_test/" -o "./data/i2b2_results_test/" -f=./configs/ucsf_pipeline_test_map_regex_context.json --prod=True
 ```
 Notes - this production mode will avoid outputting unnecessary print statements, and will skip the evaluation steps
 
-## Running from command line
+## Development Mode (ground truth annotations required)
 ```bash
-python3 main.py -i=./data/i2b2_notes/ -a=./data/i2b2_anno/ -o=./data/i2b2_results/ -f=./configs/example.json
-```
-
-
-### Run a Stanford NER Taggger  (Warning, very slow)
-#### Remove 'PERSON' configs/remove_person_tags.json
-```json
-python3 main.py -i=./data/i2b2_notes/ -a=./data/i2b2_anno/ -o=./data/i2b2_results/ -f=./configs/test_ner.json
-```
-
-
-### Run a Whitelist
-#### Remove 'PERSON' configs/remove_person_tags.json
-```json
-python3 main.py -i=./data/i2b2_notes/ -a=./data/i2b2_anno/ -o=./data/i2b2_results/ -f=./configs/test_whitelist.json
-```
-
-
-### Run a Blacklist
-#### Remove 'PERSON' configs/remove_person_tags.json
-```json
-python3 main.py -i=./data/i2b2_notes/ -a=./data/i2b2_anno/ -o=./data/i2b2_results/ -f=./configs/test_blacklist.json
-```
-
-
-### Run a Regex
-#### Remove 'PERSON' configs/remove_person_tags.json
-```json
-python3 main.py -i=./data/i2b2_notes/ -a=./data/i2b2_anno/ -o=./data/i2b2_results/ -f=./configs/just_digits.json
-```
-
-### Run Multiple patterns
-#### Remove PHI configs/example.json
-```json
-python3 main.py -i=./data/i2b2_notes/ -a=./data/i2b2_anno/ -o=./data/i2b2_results/ -f=./configs/example.json
+python3 main.py -i=./data/i2b2_notes/ -a=./data/i2b2_anno/ -o=./data/i2b2_results/ -f=./configs/ucsf_pipeline_test_map_regex_context.json
 ```
