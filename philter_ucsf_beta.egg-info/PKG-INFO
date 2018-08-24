@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: philter-ucsf-beta
+Version: 0.0.1
+Summary: An open-source PHI-filtering software
+Home-page: https://github.com/beaunorgeot/philter-ucsf-beta
+Author: Beau Norgeot
+Author-email: beaunorgeot@gmail.com
+License: UNKNOWN
+Description: # Running Philter from the command line
+        
+        ## Production Mode (no ground truth annotations required)
+        ```bash
+        python3 main.py -i "./data/i2b2_notes_test/" -o "./data/i2b2_results_test/" -f=./configs/ucsf_pipeline_test_map_regex_context.json --prod=True
+        ```
+        Notes - this production mode will avoid outputting unnecessary print statements, and will skip the evaluation steps
+        
+        ## Development Mode (ground truth annotations required)
+        ```bash
+        python3 main.py -i=./data/i2b2_notes/ -a=./data/i2b2_anno/ -o=./data/i2b2_results/ -f=./configs/ucsf_pipeline_test_map_regex_context.json
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

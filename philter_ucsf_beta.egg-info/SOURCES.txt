@@ -1,0 +1,7 @@
+README.md
+setup.py
+philter-ucsf-beta/__init__.py
+philter_ucsf_beta.egg-info/PKG-INFO
+philter_ucsf_beta.egg-info/SOURCES.txt
+philter_ucsf_beta.egg-info/dependency_links.txt
+philter_ucsf_beta.egg-info/top_level.txt
