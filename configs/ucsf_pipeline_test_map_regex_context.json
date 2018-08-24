@@ -20,6 +20,13 @@
         "filepath":"filters/regex/safe/hospital_safe.txt",
         "notes":"This should remove anything with pattern hospital"
     }, 
+   {
+        "title":"wheezes safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/wheezes_safe.txt",
+        "notes":""
+    }, 
 
    {
         "title":"days safe",
@@ -244,6 +251,13 @@
         "exclude":false,
         "filepath":"filters/regex/safe/birth_safe.txt",
         "notes":"This should remove anything with pattern birth"
+    },
+    {
+        "title":"bruits safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/bruits_safe.txt",
+        "notes":""
     },
     {
         "title":"call safe",
@@ -755,13 +769,6 @@
         "exclude":false,
         "filepath":"filters/regex/safe/other_safe.txt",
         "notes":"This should remove anything with pattern other"
-    },
-    {
-        "title":"page safe",
-        "type":"regex",
-        "exclude":false,
-        "filepath":"filters/regex/safe/page_safe.txt",
-        "notes":"This should remove anything with pattern page x"
     },
     {
         "title":"pap safe",
@@ -2000,7 +2007,7 @@
         "title":"Whitelist 1",
         "type":"set",
         "exclude":false,
-        "filepath":"/data/muenzenk/fp_analysis/white_black_diff_tests/whitelist_plus_fps-3_cleaned.json",
+        "filepath":"filters/whitelists/whitelist_plus_fps-3_cleaned.json",
         "pos":[],
         "notes":"These are words we beleive are safe"
     },

@@ -1,0 +1,12 @@
+[jJ][aA][nN]|[jJ][aA][nN][uU][aA][rR][yY]|
+[fF][eE][bB]|[fF][eE][bB][rR][uU][aA][rR][yY]|
+[mM][aA][rR]|[mM][aA][rR][cC][hH]|
+[aA][pP][rR]|[aA][pP][rR][iI][lL]|
+[mM][aA][yY]|
+[jJ][uU][nN]|[jJ][uU][nN][eE]|
+[jJ][uU][lL]|[jJ][uU][lL][yY]|
+[aA][uU][gG]|[aA][uU][gG][uU][sS][tT]|
+[sS][eE][pP]|[sS][eE][pP][tT][eE][mM][bB][eE][rR]|
+[oO][cC][tT]|[oO][cC][tT][oO][bB][eE][rR]|
+[nN][oO][vV]|[nN][oO][vV][eE][mM][bB][eE][rR]|
+[dD][eE][cC]|[dD][eE][cC][eE][mM][bB][eE][rR]
