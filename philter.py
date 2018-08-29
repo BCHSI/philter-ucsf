@@ -323,14 +323,7 @@ class Philter:
             matches = regex.finditer(text)
             
             for m in matches:
-
-                # if '1701 Divisadero' in m.group():
-                #     print(self.patterns[pattern_index]["title"])
-                #     print(m.group())
-                #     print(filename)
-                #     print('\n')
-
-                
+               
                 coord_map.add_extend(filename, m.start(), m.start()+len(m.group()))
         
             self.patterns[pattern_index]["coordinate_map"] = coord_map
@@ -691,7 +684,8 @@ class Philter:
 
                     else:
                         pass
-        
+###########################       
+
             # Add regex_context to map separately
             else:
                 if exclude:
@@ -703,9 +697,11 @@ class Philter:
                     self.exclude_map.remove(filename, start, stop)
                     self.data_all_files[filename]["non-phi"].append({"start":start, "stop":stop, "word":txt[start:stop], "filepath":filter_path})
 
-            for list_phi_type in self.phi_type_list:
-                for start,stop in self.phi_type_dict[list_phi_type][0].filecoords(filename):
-                    self.data_all_files[filename]["phi"].append({"start":start, "stop":stop, "word":txt[start:stop],"phi_type":list_phi_type, "filepath":""})
+###########################
+            
+        # dont' need to loop through all PHi types -- just current one
+        for start,stop in self.phi_type_dict[phi_type][0].filecoords(filename):
+            self.data_all_files[filename]["phi"].append({"start":start, "stop":stop, "word":txt[start:stop],"phi_type":phi_type, "filepath":""})
 
 
     def transform(self):
@@ -767,7 +763,7 @@ class Philter:
             json.dump(self.data_all_files, open(self.coords, "w"), indent=4)
 
     # infilename needed for addressing maps
-    def transform_text_asterisk(self, txt, infilename):       
+    def transform_text_asterisk(self, txt, infilename):        
         last_marker = 0
         current_chunk = []
         punctuation_matcher = re.compile(r"[^a-zA-Z0-9*]")
