@@ -1,0 +1,106 @@
+
+
+
+Record date: 2080-02-18
+
+ 
+
+SDU JAR Admission Note
+
+Name: 	 Yosef Villegas
+MR:	8249813
+DOA:  	2/17/80
+PCP:  Gilbert Perez
+Attending: YBARRA
+CODE: FULL
+
+HPI:  70 yo M with NIDDM admitted for cath after positive MIBI. Pt has had increasing CP and SOB on exertion for past two months, seen at PCP on 2/03 with EKG showing RBBB. Pt was scheduled for stress MIBI today to eval for cardiac ischemia. MIBI was reportedly stopped 2/2 to chest pain, though pt denies having pain during procedure. MIBI was read as positive for moderate to severe inferior ischemia and pt was referred to the ED for admission and catheterization.
+
+
+PMH: 
+Seronegative Rheumatoid Arthritis 
+HTN
+Right Carotid Artery Dz 
+Obesity 
+Hyperlipidemia 
+Diabetes mellitus type 2
+
+Home Medications: 
+
+Acetylsalicylic Acid (Aspirin)  PO 81 MG QD
+Xanax (Alprazolam)  PO  BID
+Atenolol  PO 50 MG QD
+Enalapril Maleate  PO 10 MG QD
+Hctz (Hydrochlorothiazide)  PO  QD
+Metformin  PO 850 MG BID
+
+
+Allergies: NKDA
+
+
+Social History:  Smokes 2 packs per month, drinks 1 case of beer per month
+
+
+Exam:  	
+VS: T: 98.1  HR: 59  BP: 158/72  RR: 20  Sat:  97% RA
+General: Obese gentleman lying comfortably in bed
+HEENT: Pupils equal, round, and reactive to light, extra ocular muscles intact, pharynx clear
+Pulmonary: Clear to auscultation bilaterally, no wheezes, rubs or rales 
+Cardiac:  Irregular, no m/r/g, no jugular venous distension
+Abdomen: soft, nt, nd, normal bowl sounds
+Extr: Positive pedal pulses bilaterally, no cyanosis, clubbing, or edema  
+Neuro: Alert and oriented to person place and time. No focal weakness or paresthesias.
+
+
+DATA: 
+
+NA        	138       	          	          	          
+K         	3.9      	          	          	          
+CL        	99(L)     		          	          	          
+CO2       	27.8      		          	          	          
+BUN       	16        	          	          	          
+CRE       	0.9       		          	          	          
+GLU       	95                  	          	           
+
+WBC       	9.9       	          	          	          	          
+RBC       	5.14      	          	          	          	          
+HGB       	15.7      	          	          	          	          
+HCT       	44.5      	          	          	          	          
+MCV       	87        	          	          	          	          
+MCH       	30.6      	          	          	          	          
+MCHC      35.4      	          	          	          	          
+PLT       	243       	          	          	          	          
+RDW       	13.4      
+
+PT        	12.2      	          	          	          	          
+PT-INR    	1.1       	          	          	          	          
+PTT       	24.8      	          	          	          	          
+
+MIBI: The patient has reduced exercise capacity (5 METS).  The ECG is positive for ischemia.  LV contractile function is normal. Findings are consistent with moderate to severe ischemia in the inferior and inferolateral ischemia at low work load (1.5 min EX). The LVEF is 52%.
+
+EKG: Sinus arrhythmia with RBBB
+
+ASSESSMENT AND PLAN: 
+
+70 yo M with multiple cardiac risk factors and 2 mo escalating angina sx presents with MIBI positive for interior and inferiolateral ischemia.
+
+CV:
+	Ischemia: Hx angina, MIBI positive for inferior and inferiolateral ischemia. 
+Cycle enzymes, plan for cath 2/18 to eval for reversible coronary defect. ASA.
+	Pump: EF estimated at 52%
+Cont enalapril, hctz
+Rhythm: Sinus arrythmia and RBBB
+Hold atenolol for bradycardia
+DM
+RISS
+Prophy:
+DVT prophylaxis: ambulatory
+GI prophylaxis: Zantac
+
+
+_______________________
+Mike Ivan, MD, EHMS pager 84710
+
+
+
+
