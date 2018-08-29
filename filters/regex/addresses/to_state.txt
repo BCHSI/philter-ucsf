@@ -1,1 +1,1 @@
-\b(?<=(?i)to\s)("""+state_name+r""")\b
+(?i)\b(?<=(?i)to\s)(?!\bme\b)("""+state_name+r""")\b

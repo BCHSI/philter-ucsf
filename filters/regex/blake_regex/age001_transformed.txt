@@ -1,1 +1,0 @@
-\s([aA][gG][eE]|[aA][gG][eE][dD]).*?\d+

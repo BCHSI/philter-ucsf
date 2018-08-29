@@ -1,1 +1,1 @@
-\b(?i)((?<=state:\s)|(?<=state\s))[A-Z]{2}\b
+\b(?i)(?!of\shealth)((?<=state\sof\s)|(?<=state:\s)|(?<=state\s))[A-Z]{2}\b

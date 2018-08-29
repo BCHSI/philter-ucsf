@@ -1,1 +1,0 @@
-\b(?i)\d+\s(kilo)?grams\b

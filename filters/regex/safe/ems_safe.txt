@@ -1,0 +1,1 @@
+\b(EMS(\s(arrival|was\scalled|gave))|((called|call)\s)EMS)\b

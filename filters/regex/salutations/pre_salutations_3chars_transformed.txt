@@ -1,1 +1,1 @@
-(?<=Dr\.\s|DR\.\s|Mr\.\s|MR\.\s|Ms\.\s|MS\.\s|Sir\s|SIR\s|Mrs\s|MRS\s)(([A-Z](\s|\.\s))?[A-Z]\'?[A-Z]?[\-aA-zZ]+(\s[A-Z](\.)?)?(\s[A-Z]\'?[A-Z]?[\-aA-zZ]+)*)\b
+(?<=\bDr\.\s|\bDR\.\s|\bMr\.\s|\bMR\.\s|\bMs\.\s|\bMS\.\s|\bSir\s|\bSIR\s|\bMrs\s|\bMRS\s)(([A-Z](\s|\.\s))?[A-Z]\'?[A-Z]?[\-aA-zZ]+(\s[A-Z](\.)?)?(\s[A-Z]\'?[A-Z]?[\-aA-zZ]+)*)\b

@@ -1,1 +1,1 @@
-\b(?i)((at|of|since)\sbirth|birth\s(control|weight|mother|time|day))\b
+b(?i)((at|since)\sbirth|birth\s(control|weight|mother|time|day))\b

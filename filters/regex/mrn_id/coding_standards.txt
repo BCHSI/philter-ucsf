@@ -1,0 +1,31 @@
+-Use spaces instead of tabs
+-Align things understandably when breaking up long lines
+-In general, stick to 80 chars width
+-Make comments about WHY something does something, not WHAT
+-Might be helpful to write comments first
+
+
+
+Docstrings:
+1. Brief description
+2. Long description
+3. Describe parameters
+4. Describe pre-conditions
+5. Describe post-conditions
+
+
+Use assert() statements to avoid programming errors
+
+
+Github:
+
+Master branch (commit code only intended for releases), develop branches (for release candidates), topic branches (new features, bug fixes, experiments)
+Delete branches after merge
+
+
+Other options--GitLab, 
+
+
+
+Make sure paper_stats.sh is updated
+Run bit for larger set of notes
