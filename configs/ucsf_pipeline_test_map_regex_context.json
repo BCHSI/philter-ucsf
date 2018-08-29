@@ -2038,7 +2038,7 @@
         "title": "Names Blacklist",
         "type": "set",
         "exclude": true,
-        "filepath": "/data/muenzenk/fp_analysis/blacklists/names_blacklist_sub_100_fps.json",
+        "filepath": "filters/blacklists/names_blacklist_sub_100_fps.json",
         "pos": [
             "NNP"
         ],
