@@ -18,11 +18,11 @@ and the output directories would be:
 
 In this example, the following two commands would be used to start each job:
 ```bash
-nohup python3 main.py -i "./data/batch1/500_input_notes/" -o "./data/batch1/philtered_notes/" -f=./configs/ucsf_pipeline_test_map_regex_context.json >  2>&1 &
+nohup python3 main.py -i "./data/batch1/500_input_notes/" -o "./data/batch1/philtered_notes/" -f=./configs/ucsf_pipeline_test_map_regex_context.json --prod=True >  2>&1 &
 
 ```
 ```bash
-nohup python3 main.py -i "./data/batch2/500_input_notes/" -o "./data/batch2/philtered_notes/" -f=./configs/ucsf_pipeline_test_map_regex_context.json >  2>&1 &
+nohup python3 main.py -i "./data/batch2/500_input_notes/" -o "./data/batch2/philtered_notes/" -f=./configs/ucsf_pipeline_test_map_regex_context.json --prod=True >  2>&1 &
 
 ```
 
