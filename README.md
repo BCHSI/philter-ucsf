@@ -6,7 +6,7 @@ Production mode will avoid outputting unnecessary print statements, and will ski
 python3 main.py -i ./data/i2b2_notes_test/ -o ./data/i2b2_results_test/ -f=./configs/ucsf_pipeline_test_map_regex_context.json --prod=True
 ```
 
-To run multiple jobs simultaneously, all input notes pertaining to a single job must be located in separate directories. For example, if you wanted to Philter 1000 notes simultaneously on two processes, the two input directories might look like:
+To run multiple jobs simultaneously, all input notes handled by a single job must be located in separate directories. For example, if you wanted to Philter 1000 notes simultaneously on two processes, the two input directories might look like:
 
 1. ./data/batch1/500_input_notes_batch1/
 2. ./data/batch2/500_input_notes_batch2/
