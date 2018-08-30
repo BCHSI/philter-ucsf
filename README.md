@@ -28,7 +28,7 @@ python3 main.py -i ./data/i2b2_notes/ -a ./data/i2b2_anno/ -o ./data/i2b2_result
 ```
 
 
-## Creating Input Files
+## Creating Philter-Compatible Input Files
 Because Philter only accepts plain text files as input, the note text must be extracted from notes in XML format. Additionally, Philter requires plain text annotation files (with asterisks obscuring PHI) for evalutaion. To create these required files from notes in XML format, run the following command:
 
 ```bash
