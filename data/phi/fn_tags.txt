@@ -1,0 +1,4 @@
+key|note_word|phi_tag|pos_tag|occurrences|include_exclude|exclude_filters|include_filters
+uniq0|SILVER|HOSPITAL|NNP|1|include|['filters/regex/addresses/hospital2.txt']|['filters/whitelists/whitelist_plus_fps-3_cleaned.json']
+uniq1|church|DOCTOR|NN|1|include|[]|['filters/whitelists/whitelist_plus_fps-3_cleaned.json']
+uniq2|holmes|DOCTOR|VBZ|1|include|[]|['filters/whitelists/whitelist_plus_fps-3_cleaned.json']
