@@ -34,10 +34,10 @@ Because Philter only accepts plain text files as input, the note text must be ex
 python3 ./generate_dataset/main_ucsf_updated.py -x ./data/i2b2_xml/ -o ./data/phi_notes_i2b2.json -n ./data/i2b2_notes/ -a ./data/i2b2_anno/
 ```
 ### Input and Output Description
-This script expects notes in xml format, and transforms each input file into two plain text files: 1) the original note text, and 2) the note text with asterisks obscuring PHI. A properly formatted xml input can be found in ./data/i2b2_xml, and examples of the two outputs can be found in ./data/i2b2_notes and ./data/i2b2_anno, respectively.
+This script expects notes in xml format, and transforms each input file into two plain text files: 1) the original note text, and 2) the note text with asterisks obscuring PHI. A properly formatted xml input can be found in ./data/i2b2_xml, and examples of the two outputs can be found in ./data/i2b2_notes and ./data/i2b2_anno, respectively. Additionally, this script creates a .json file that contains the original text from each note, followed by the PHI annotations in json format. An example of this output file can be found at ./data/phi_notes_i2b2.json.
 ### Flags:
 
 -x Path to the directory file that contains the note xml files<br/>
--o Path to the file that contains a summary of the phi in the xml files<br/>
+-o Path to the json file that will contain a summary of the phi in the xml files<br/>
 -n Path to the directory where you would like to store the plain text notes<br/>
 -a Path to the directory where you would like to store the plain text annotations<br/>
