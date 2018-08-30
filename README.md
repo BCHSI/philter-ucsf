@@ -3,7 +3,7 @@
 ## Production Mode (no ground truth annotations required)
 Production mode will avoid outputting unnecessary print statements, and will skip the evaluation steps. Use the following command to run a single job:
 ```bash
-python3 main.py -i ./data/i2b2_notes_test/ -o ./data/i2b2_results_test/ -f ./configs/ucsf_pipeline_test_map_regex_context.json --prod=True
+python3 main.py -i ./data/i2b2_notes/ -o ./data/i2b2_results/ -f ./configs/ucsf_pipeline_test_map_regex_context.json --prod=True
 ```
 
 To run multiple jobs simultaneously, all input notes handled by a single job must be located in separate directories. For example, if you wanted to Philter 1000 notes simultaneously on two processes, the two input directories might look like:
