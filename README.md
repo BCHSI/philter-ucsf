@@ -27,3 +27,10 @@ nohup python3 main.py -i ./data/batch2/500_input_notes_batch2/ -o ./data/i2b2_re
 python3 main.py -i ./data/i2b2_notes/ -a ./data/i2b2_anno/ -o ./data/i2b2_results/ -f=./configs/ucsf_pipeline_test_map_regex_context.json
 ```
 
+
+## Creating Input Files
+Because Philter only accepts plain text files as input, text must be extracted from notes in XML format. Additionally, Philter requires plain text annotation files (with asterisks obscuring PHI) for evalutaion. To create these required files from notes in XML format, run the following command:
+
+```bash
+python3 ./generate_dataset/main_ucsf_updated.py -x ./data/i2b2_xml/ -o ./data/phi_notes_i2b2.json -n ./data/i2b2_notes/ -a ./data/i2b2_anno/
+```
