@@ -13,11 +13,11 @@ To run Philter multiple jobs simultaneously, all input notes pertaining to a sin
 
 In this example, the following two commands would be used to start each job:
 ```bash
-nohup python3 main.py -i "./data/batch1/500_input_notes/" -o "./data/i2b2_results_test/"" -f=./configs/ucsf_pipeline_test_map_regex_context.json --prod=True > ./data/batch1/batch1_terminal_out.txt 2>&1 &
+nohup python3 main.py -i "./data/batch1/500_input_notes_batch2/" -o "./data/i2b2_results_test/"" -f=./configs/ucsf_pipeline_test_map_regex_context.json --prod=True > ./data/batch1/batch1_terminal_out.txt 2>&1 &
 
 ```
 ```bash
-nohup python3 main.py -i "./data/batch2/500_input_notes/" -o "./data/i2b2_results_test/" -f=./configs/ucsf_pipeline_test_map_regex_context.json --prod=True > ./data/batch2/batch2_terminal_out.txt 2>&1 &
+nohup python3 main.py -i "./data/batch2/500_input_notes_batch2/" -o "./data/i2b2_results_test/" -f=./configs/ucsf_pipeline_test_map_regex_context.json --prod=True > ./data/batch2/batch2_terminal_out.txt 2>&1 &
 
 ```
 
