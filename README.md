@@ -22,7 +22,7 @@ nohup python3 main.py -i "./data/batch1/500_input_notes/" -o "./data/batch1/phil
 
 ```
 ```bash
-nohup python3 main.py -i "./data/batch2/500_input_notes/" -o "./data/batch2/philtered_notes/" -f=./configs/ucsf_pipeline_test_map_regex_context.json --prod=True > ./data/batch1/batch2_terminal_out.txt 2>&1 &
+nohup python3 main.py -i "./data/batch2/500_input_notes/" -o "./data/batch2/philtered_notes/" -f=./configs/ucsf_pipeline_test_map_regex_context.json --prod=True > ./data/batch2/batch2_terminal_out.txt 2>&1 &
 
 ```
 
