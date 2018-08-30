@@ -297,6 +297,10 @@ class Philter:
 
                 # get full exclude map (only updated either on-command by map_regex_context or at the very end of map_coordinates)
                 self.full_exclude_map[filename] = self.include_map.get_complement(filename, txt)
+                for phi_type in self.phi_type_list:
+                    for start,stop in self.phi_type_dict[phi_type][0].filecoords(filename):
+                        self.data_all_files[filename]["phi"].append({"start":start, "stop":stop, "word":txt[start:stop],"phi_type":phi_type, "filepath":""})
+
 
         #clear out any data to save ram
         for i,pat in enumerate(self .patterns):
@@ -700,8 +704,8 @@ class Philter:
 ###########################
             
         # dont' need to loop through all PHi types -- just current one
-        for start,stop in self.phi_type_dict[phi_type][0].filecoords(filename):
-            self.data_all_files[filename]["phi"].append({"start":start, "stop":stop, "word":txt[start:stop],"phi_type":phi_type, "filepath":""})
+        # for start,stop in self.phi_type_dict[phi_type][0].filecoords(filename):
+        #     self.data_all_files[filename]["phi"].append({"start":start, "stop":stop, "word":txt[start:stop],"phi_type":phi_type, "filepath":""})
 
 
     def transform(self):
