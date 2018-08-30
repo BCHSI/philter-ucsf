@@ -23,4 +23,9 @@ Master branch (commit code only intended for releases), develop branches (for re
 Delete branches after merge
 
 
-Other options--GitLab,
+Other options--GitLab, 
+
+
+
+Make sure paper_stats.sh is updated
+Run bit for larger set of notes

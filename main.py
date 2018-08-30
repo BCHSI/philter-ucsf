@@ -67,14 +67,14 @@ def main():
         run_eval = False
         verbose = False
         outputformat = "i2b2"
-        filters = "./configs/philter_alpha.json"
+        # filters = args.filters
         philter_config = {
             "verbose":verbose,
             "run_eval":run_eval,
             "finpath":args.input,
             "foutpath":args.output,
             "outformat":outputformat,
-            "filters":filters,
+            "filters":args.filters,
         }
 
     else:
@@ -129,6 +129,7 @@ def main():
             pre_process2= r"[^a-zA-Z0-9]",
             punctuation_matcher=re.compile(r"[^a-zA-Z0-9\*\.]"))
 
+    
 # error analysis
         
 if __name__ == "__main__":
