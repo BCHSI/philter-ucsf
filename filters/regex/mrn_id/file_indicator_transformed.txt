@@ -1,1 +1,1 @@
-\b(?i)((?<=file\s)|(?<=file:\s))[^\s]+\b
+\b(?i)((?<=\bfile\s)|(?<=file:\s))(?!\bprior\b)[^\s]+\b

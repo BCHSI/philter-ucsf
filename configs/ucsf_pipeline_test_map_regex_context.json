@@ -953,6 +953,13 @@
         "notes":"This should remove anything that looks like a full street address (numbers and words)"
     },
     {
+        "title":"full street address with concatenated street indicator",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/full_street_address_with_concatenated_indicator_transformed.txt",
+        "notes":""
+    },
+    {
         "title":"hospital name 1",
         "type":"regex",
         "exclude":true,
@@ -972,6 +979,13 @@
         "exclude":true,
         "filepath":"filters/regex/addresses/number_streetname_noindicator_suite_transformed.txt",
         "notes":"This should remove anything that looks like a street address with a floor number extension"
+    },
+    {
+        "title":"number streetname city state",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/num_streetname_city_state_transformed.txt",
+        "notes":""
     },
     {
         "title":"number streetname extension?",
@@ -1222,284 +1236,358 @@
         "notes":"This should remove anything that has a room number"
     },
     {
+        "title":"days safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/days_safe.txt",
+        "notes":"This should remove anything with pattern XX days"
+    },
+    {
+        "title":"male safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/male_safe.txt",
+        "notes":"This should remove anything with pattern year old male"
+    },
+    {
+        "title":"bp safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/bp_safe.txt",
+        "notes":"This should remove anything with pattern bp"
+    },
+    {
+        "title":"units safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/units_safe.txt",
+        "notes":"This should remove anything with pattern unit"
+    },
+    {
+        "title":"tablet safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/tablet_safe.txt",
+        "notes":"This should remove anything with pattern tablet"
+    },
+    {
+        "title":"pain safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/pain_safe.txt",
+        "notes":"This should remove anything with pattern pain"
+    },
+    {
         "title":"YYYY/MM-YYYY/MM",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/YYYY_MM-YYYY_MM_transformed.txt",
-        "notes":"This should remove anything with pattern YYYY/MM-YYYY/MM"
+        "notes":"This should remove anything with pattern YYYY/MM-YYYY/MM",
+        "phi_type":"DATE"
     },
     {
         "title":"MM/DD/YY-MM/DD/YY",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/MM_DD_YY-MM_DD_YY_transformed.txt",
-        "notes":"This should remove anything with pattern MM/DD/YY-MM/DD/YY"
+        "notes":"This should remove anything with pattern MM/DD/YY-MM/DD/YY",
+        "phi_type":"DATE"
     },
     {
         "title":"MM/YYYY-MM/YYYY",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/MM_YYYY-MM_YYYY_transformed.txt",
-        "notes":"This should remove anything with pattern MM/YYYY-MM/YYYY"
+        "notes":"This should remove anything with pattern MM/YYYY-MM/YYYY",
+        "phi_type":"DATE"
     },
     {
         "title":"MM/YY-MM/YY",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/MM_YY-MM_YY_transformed.txt",
-        "notes":"This should remove anything with pattern MM/YY-MM/YY"
-    },
-    {
-        "title":"MM/YYYY-MM/YYYY",
-        "type":"regex",
-        "exclude":true,
-        "filepath":"filters/regex/dates/MM_YYYY-MM_YYYY_transformed.txt",
-        "notes":"This should remove anything with pattern MM/YYYY-MM/YYYY"
+        "notes":"This should remove anything with pattern MM/YY-MM/YY",
+        "phi_type":"DATE"
     },
     {
         "title":"MM/DD-MM/DD",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/MM_DD-MM_DD_transformed.txt",
-        "notes":"This should remove anything with pattern MM/DD-MM/DD"
+        "notes":"This should remove anything with pattern MM/DD-MM/DD",
+        "phi_type":"DATE"
     },
     {
         "title":"DD/MM-DD/MM",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/DD_MM-DD_MM_transformed.txt",
-        "notes":"This should remove anything with pattern DD/MM-DD/MM"
+        "notes":"This should remove anything with pattern DD/MM-DD/MM",
+        "phi_type":"DATE"
     },
     {
         "title":"day_name_dd_month_name_yy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/day_name_dd_month_name_yy_transformed.txt",
-        "notes":"This should remove anything with pattern day_name_dd_month_name_yy"
+        "notes":"This should remove anything with pattern day_name_dd_month_name_yy",
+        "phi_type":"DATE"
     },
     {
         "title":"day_name_month_name_dd_yy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/day_name_month_name_dd_yy_transformed.txt",
-        "notes":"This should remove anything with pattern day_name_month_name_dd_yy"
+        "notes":"This should remove anything with pattern day_name_month_name_dd_yy",
+        "phi_type":"DATE"
     },
     {
         "title":"day_name_month_name_dd_yyyy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/day_name_month_name_dd_yyyy_transformed.txt",
-        "notes":"This should remove anything with pattern day_name_month_name_dd_yyyy"
+        "notes":"This should remove anything with pattern day_name_month_name_dd_yyyy",
+        "phi_type":"DATE"
     },
     {
         "title":"day_name_dd_month_name_yyyy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/day_name_dd_month_name_yyyy_transformed.txt",
-        "notes":"This should remove anything with pattern day_name_dd_month_name_yyyy"
+        "notes":"This should remove anything with pattern day_name_dd_month_name_yyyy",
+        "phi_type":"DATE"
     },
     {
         "title":"day_name_month_name_dd",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/day_name_month_name_dd_transformed.txt",
-        "notes":"This should remove anything with pattern day_name_month_name_dd"
+        "notes":"This should remove anything with pattern day_name_month_name_dd",
+        "phi_type":"DATE"
     },
     {
         "title":"day_name_dd_month_name",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/day_name_dd_month_name_transformed.txt",
-        "notes":"This should remove anything with pattern day_name_dd_month_name"
+        "notes":"This should remove anything with pattern day_name_dd_month_name",
+        "phi_type":"DATE"
     },
     {
         "title":"dd_month_name_yy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/dd_month_name_yy_transformed.txt",
-        "notes":"This should remove anything with pattern dd_month_name_yy"
+        "notes":"This should remove anything with pattern dd_month_name_yy",
+        "phi_type":"DATE"
     },
     {
         "title":"dd_month_name_yyyy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/dd_month_name_yyyy_transformed.txt",
-        "notes":"This should remove anything with pattern dd_month_name_yyyy"
+        "notes":"This should remove anything with pattern dd_month_name_yyyy",
+        "phi_type":"DATE"
     },
     {
         "title":"month_name_dd_yy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/month_name_dd_yy_transformed.txt",
-        "notes":"This should remove anything with pattern month_name_dd_yy"
+        "notes":"This should remove anything with pattern month_name_dd_yy",
+        "phi_type":"DATE"
     },
     {
         "title":"month_name_dd_yyyy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/month_name_dd_yyyy_transformed.txt",
-        "notes":"This should remove anything with pattern month_name_dd_yyyy"
+        "notes":"This should remove anything with pattern month_name_dd_yyyy",
+        "phi_type":"DATE"
     },
     {
         "title":"yy_month_name_dd",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/yy_month_name_dd_transformed.txt",
-        "notes":"This should remove anything with pattern yy_month_name_dd"
+        "notes":"This should remove anything with pattern yy_month_name_dd",
+        "phi_type":"DATE"
     },
     {
         "title":"yyyy_month_name_dd",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/yyyy_month_name_dd_transformed.txt",
-        "notes":"This should remove anything with pattern yyyy_month_name_dd"
+        "notes":"This should remove anything with pattern yyyy_month_name_dd",
+        "phi_type":"DATE"
     },
     {
         "title":"yyyy_month_name",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/yyyy_month_name_transformed.txt",
-        "notes":"This should remove anything with pattern yyyy_month_name"
+        "notes":"This should remove anything with pattern yyyy_month_name",
+        "phi_type":"DATE"
     },
     {
         "title":"month_name_dd",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/month_name_dd_transformed.txt",
-        "notes":"This should remove anything with pattern month_name_dd"
+        "notes":"This should remove anything with pattern month_name_dd",
+        "phi_type":"DATE"
     },
     {
         "title":"dd_mm_yy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/dd_mm_yy_transformed.txt",
-        "notes":"This should remove anything with pattern dd_mm_yy"
+        "notes":"This should remove anything with pattern dd_mm_yy",
+        "phi_type":"DATE"
     },
     {
         "title":"dd_mm_yyyy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/dd_mm_yyyy_transformed.txt",
-        "notes":"This should remove anything with pattern dd_mm_yyyy"
+        "notes":"This should remove anything with pattern dd_mm_yyyy",
+        "phi_type":"DATE"
     },
     {
         "title":"yy_mm_dd",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/yy_mm_dd_transformed.txt",
-        "notes":"This should remove anything with pattern yy_mm_dd"
+        "notes":"This should remove anything with pattern yy_mm_dd",
+        "phi_type":"DATE"
     },
     {
         "title":"mm_dd_yy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/mm_dd_yy_transformed.txt",
-        "notes":"This should remove anything with pattern mm_dd_yy"
+        "notes":"This should remove anything with pattern mm_dd_yy",
+        "phi_type":"DATE"
     },
     {
         "title":"yyyy_mm_dd",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/yyyy_mm_dd_transformed.txt",
-        "notes":"This should remove anything with pattern yyyy_mm_dd"
+        "notes":"This should remove anything with pattern yyyy_mm_dd",
+        "phi_type":"DATE"
     },
     {
         "title":"mm_dd_yyyy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/mm_dd_yyyy_transformed.txt",
-        "notes":"This should remove anything with pattern mm_dd_yyyy"
+        "notes":"This should remove anything with pattern mm_dd_yyyy",
+        "phi_type":"DATE"
     },
     {
         "title":"mm_yyyy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/mm_yyyy_transformed.txt",
-        "notes":"This should remove anything with pattern mm_yyyy"
+        "notes":"This should remove anything with pattern mm_yyyy",
+        "phi_type":"DATE"
     },
     {
         "title":"dd_mm",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/dd_mm_transformed.txt",
-        "notes":"This should remove anything with pattern dd_mm"
+        "notes":"This should remove anything with pattern dd_mm",
+        "phi_type":"DATE"
     },
     {
         "title":"mm_dd",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/mm_dd_transformed.txt",
-        "notes":"This should remove anything with pattern mm_dd"
+        "notes":"This should remove anything with pattern mm_dd",
+        "phi_type":"DATE"
     },
     {
         "title":"mm_yy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/mm_yy_transformed.txt",
-        "notes":"This should remove anything with pattern mm_yy"
+        "notes":"This should remove anything with pattern mm_yy",
+        "phi_type":"DATE"
     },
     {
         "title":"month_name_of_yy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/month_name_of_yy_transformed.txt",
-        "notes":"This should remove anything with pattern month_name_of_yy"
+        "notes":"This should remove anything with pattern month_name_of_yy",
+        "phi_type":"DATE"
     },
     {
         "title":"month_name_of_yyyy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/month_name_of_yyyy_transformed.txt",
-        "notes":"This should remove anything with pattern month_name_of_yyyy"
+        "notes":"This should remove anything with pattern month_name_of_yyyy",
+        "phi_type":"DATE"
     },
     {
         "title":"month_name_yy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/month_name_yy_transformed.txt",
-        "notes":"This should remove anything with pattern month_name_yy"
+        "notes":"This should remove anything with pattern month_name_yy",
+        "phi_type":"DATE"
     },
     {
         "title":"month_name_yyyy",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/month_name_yyyy_transformed.txt",
-        "notes":"This should remove anything with pattern month_name_yyyy"
+        "notes":"This should remove anything with pattern month_name_yyyy",
+        "phi_type":"DATE"
     },
     {
         "title":"day_numbering_of_month",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/day_numbering_of_month_transformed.txt",
-        "notes":"This should remove anything with pattern day_numbering_of_month"
+        "notes":"This should remove anything with pattern day_numbering_of_month",
+        "phi_type":"DATE"
     },
     {
         "title":"month_name_xst_xnd_xth",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/month_name_xst_xnd_xth_transformed.txt",
-        "notes":"This should remove anything with pattern month_name_xst_xnd_xth"
+        "notes":"This should remove anything with pattern month_name_xst_xnd_xth",
+        "phi_type":"DATE"
     },
     {
         "title":"on_or_by_the_day_numbering",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/on_or_by_the_day_numbering_transformed.txt",
-        "notes":"This should remove anything with pattern on_or_by_the_day_numbering"
+        "notes":"This should remove anything with pattern on_or_by_the_day_numbering",
+        "phi_type":"DATE"
     },
     {
         "title":"as of date",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/as_of_date.txt",
-        "notes":"This should remove anything with pattern as of d/d"
+        "notes":"This should remove anything with pattern as of d/d",
+        "phi_type":"DATE"
     },  
     {
         "title":"month_name",
         "type":"regex",
         "exclude":true,
         "filepath":"filters/regex/dates/month_name_transformed.txt",
-        "notes":"This should remove anything with pattern month_name"
+        "notes":"This should remove anything with pattern month_name",
+        "phi_type":"DATE"
     },
     {
         "title":"model number",
@@ -1852,6 +1940,13 @@
         "note": ""
     },
     {
+        "title": "patient mrn",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/patient_mrn.txt",
+        "note": ""
+    },
+    {
         "title": "name_age",
         "type": "regex",
         "exclude": true,
@@ -1954,6 +2049,13 @@
         "type": "regex",
         "exclude": true,
         "filepath": "filters/regex/salutations/name_indicator.txt",
+        "note": ""
+    },
+    {
+        "title": "relative indicator",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/relative_indicator.txt",
         "note": ""
     },
      {
