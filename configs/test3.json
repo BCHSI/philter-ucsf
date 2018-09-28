@@ -1,0 +1,2195 @@
+[  
+   {
+        "title":"ucsf apex safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/ucsf_regex/ucsf_apex_safe.txt",
+        "notes":"This should remove anything with pattern apex"
+    }, 
+    {
+        "title":"ucsf MyChart safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/ucsf_regex/ucsf_MyChart_safe.txt",
+        "notes":"This should remove anything with pattern MyChart"
+    },
+   {
+        "title":"hospital safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/hospital_safe.txt",
+        "notes":"This should remove anything with pattern hospital"
+    }, 
+   {
+        "title":"wheezes safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/wheezes_safe.txt",
+        "notes":""
+    }, 
+
+   {
+        "title":"days safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/days_safe.txt",
+        "notes":"This should remove anything with pattern XX days"
+    },
+   {
+        "title":"assessment and plan safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/assessment_&_plan_safe.txt",
+        "notes":"This should remove anything with pattern XX days"
+    },
+    {
+        "title":"male safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/male_safe.txt",
+        "notes":"This should remove anything with pattern year old male"
+    },
+    {
+        "title":"bp safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/bp_safe.txt",
+        "notes":"This should remove anything with pattern bp"
+    },
+    {
+        "title":"units safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/units_safe.txt",
+        "notes":"This should remove anything with pattern unit"
+    },
+    {
+        "title":"tablet safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/tablet_safe.txt",
+        "notes":"This should remove anything with pattern tablet"
+    },
+    {
+        "title":"pain safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/pain_safe.txt",
+        "notes":"This should remove anything with pattern pain"
+    },
+    {
+        "title":"able to safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/able_to_safe.txt",
+        "notes":"This should remove anything with pattern able to"
+    },
+    {
+        "title":"attending safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/attending_safe.txt",
+        "notes":"This should remove anything with pattern attending [ologist]"
+    },
+    {
+        "title":"active safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/active_safe.txt",
+        "notes":"This should remove anything with pattern active"
+    },
+    {
+        "title":"at measurement safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/at_measurement_safe.txt",
+        "notes":"This should remove anything with pattern at measurement"
+    },
+    {
+        "title":"age safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/age_safe.txt",
+        "notes":"This should remove anything with pattern age < 90"
+    },
+    {
+        "title":"airway safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/airway_safe.txt",
+        "notes":"This should remove anything with pattern airway"
+    },
+    {
+        "title":"alert safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/alert_safe.txt",
+        "notes":"This should remove anything with pattern alert"
+    },
+    {
+        "title":"a1c safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/a1c_safe.txt",
+        "notes":"This should remove anything with pattern a1c"
+    },
+    {
+        "title":"AM safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/AM_safe.txt",
+        "notes":"This should remove anything with pattern AM"
+    },
+    {
+        "title":"arms safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/arms_safe.txt",
+        "notes":"This should remove anything with pattern arms"
+    },
+    {
+        "title":"assessment safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/assessment_safe.txt",
+        "notes":"This should remove anything with pattern assessment"
+    },
+    {
+        "title":"as safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/as_safe.txt",
+        "notes":"This should remove anything with pattern as well as"
+    },
+    {
+        "title":"axis safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/axis_safe.txt",
+        "notes":"This should remove anything with pattern axis"
+    },
+    {
+        "title":"baby safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/baby_safe.txt",
+        "notes":"This should remove anything with pattern baby"
+    },
+    {
+        "title":"back safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/back_safe.txt",
+        "notes":"This should remove anything with pattern back"
+    },
+    {
+        "title":"bal safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/bal_safe.txt",
+        "notes":"This should remove anything with pattern BAL"
+    },
+    {
+        "title":"balance safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/balance_safe.txt",
+        "notes":"This should remove anything with pattern balance"
+    },
+    {
+        "title":"barretts esophagus safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/barretts_esophagus_safe.txt",
+        "notes":"This should remove anything with pattern barret's esophagus"
+    },
+    {
+        "title":"base safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/base_safe.txt",
+        "notes":"This should remove anything with pattern base"
+    },
+    {
+        "title":"be safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/be_safe.txt",
+        "notes":"This should remove anything with pattern be xx"
+    },
+    {
+        "title":"bee safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/bee_safe.txt",
+        "notes":"This should remove anything with pattern bee sting etc"
+    },
+    {
+        "title":"beats safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/beats_safe.txt",
+        "notes":"This should remove anything with pattern beats"
+    },
+    {
+        "title":"below safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/below_safe.txt",
+        "notes":"This should remove anything with pattern below"
+    },
+    {
+        "title":"bile safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/bile_safe.txt",
+        "notes":"This should remove anything with pattern bile duct"
+    },
+    {
+        "title":"birth safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/birth_safe.txt",
+        "notes":"This should remove anything with pattern birth"
+    },
+    {
+        "title":"bruits safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/bruits_safe.txt",
+        "notes":""
+    },
+    {
+        "title":"call safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/call_safe.txt",
+        "notes":"This should remove anything with pattern call"
+    },
+    {
+        "title":"cancer safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/cancer_safe.txt",
+        "notes":"This should remove anything with pattern skin cancer"
+    },
+    {
+        "title":"case safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/case_safe.txt",
+        "notes":"This should remove anything with pattern case"
+    },
+    {
+        "title":"central safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/central_safe.txt",
+        "notes":"This should remove anything with pattern central"
+    },
+    {
+        "title":"cava safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/cava_safe.txt",
+        "notes":"This should remove anything with pattern vena cava"
+    },
+    {
+        "title":"cd safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/cd_safe.txt",
+        "notes":"This should remove anything with pattern vena CD##"
+    },
+    {
+        "title":"cea safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/cea_safe.txt",
+        "notes":""
+    },
+    {
+        "title":"chief safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/chief_safe.txt",
+        "notes":"This should remove anything with pattern chief complaint"
+    },
+    {
+        "title":"child safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/child_safe.txt",
+        "notes":"This should remove anything with pattern your child"
+    },
+    {
+        "title":"code safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/code_safe.txt",
+        "notes":"This should remove anything with pattern code"
+    },
+    {
+        "title":"commonly safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/commonly_safe.txt",
+        "notes":"This should remove anything with pattern commonly"
+    },
+    {
+        "title":"colon safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/colon_safe.txt",
+        "notes":"This should remove anything with pattern colon"
+    },
+    {
+        "title":"CT safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/CT_safe.txt",
+        "notes":""
+    },
+    {
+        "title":"contact safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/contact_safe.txt",
+        "notes":"This should remove anything with pattern contact"
+    },
+    {
+        "title":"contractions safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/contractions_safe.txt",
+        "notes":""
+    },
+    {
+        "title":"cord safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/cord_safe.txt",
+        "notes":"This should remove anything with pattern cord"
+    },
+    {
+        "title":"crohn's diseases safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/crohns_disease_safe.txt",
+        "notes":"This should remove anything with pattern crohn's disease"
+    },
+    {
+        "title":"day safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/day_safe.txt",
+        "notes":"This should remove anything with pattern day"
+    },
+    {
+        "title":"decimal range safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/decimal_range_safe.txt",
+        "notes":"This should remove anything with pattern decimal-decimal"
+    },
+    {
+        "title":"dial safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/dial_safe.txt",
+        "notes":"This should remove anything with pattern dial"
+    },
+        {
+        "title":"disposition safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/disposition_safe.txt",
+        "notes":"This should remove anything with pattern disposition"
+    },
+    {
+        "title":"distance safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/distance_safe.txt",
+        "notes":"This should remove anything with pattern distance"
+    },
+        {
+        "title":"distensable safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/distensable_safe.txt",
+        "notes":"This should remove anything with pattern distensable"
+    },
+    {
+        "title":"do safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/do_safe.txt",
+        "notes":"This should remove anything with pattern do not"
+    },
+    {
+        "title":"doesn't safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/doesnt_safe.txt",
+        "notes":"This should remove anything with pattern doesn't"
+    },
+    {
+        "title":"doppler safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/doppler_safe.txt",
+        "notes":"This should remove anything with pattern doppler flow, etc"
+    },
+    {
+        "title":"down syndrome safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/down_syndrome_safe.txt",
+        "notes":"This should remove anything with pattern down's syndrome"
+    },
+    {
+        "title":"drop safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/drop_safe.txt",
+        "notes":"This should remove anything with pattern x drop"
+    },
+    {
+        "title":"due safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/due_safe.txt",
+        "notes":"This should remove anything with pattern due to"
+    },
+    {
+        "title":"ED safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/ED_safe.txt",
+        "notes":"This should remove anything with pattern ED"
+    },
+    {
+        "title":"edge safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/edge_safe.txt",
+        "notes":"This should remove anything with pattern edge"
+    },
+    {
+        "title":"ems safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/ems_safe.txt",
+        "notes":""
+    },
+    {
+        "title":"effort safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/effort_safe.txt",
+        "notes":"This should remove anything with pattern effort normal"
+    },
+    {
+        "title":"est safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/est_safe.txt",
+        "notes":"This should remove anything with pattern level # est"
+    },
+    {
+        "title":"ekg safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/ekg_safe.txt",
+        "notes":"This should remove anything with pattern EKG"
+    },
+    {
+        "title":"fall safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/fall_safe.txt",
+        "notes":"This should remove anything with pattern fall risk"
+    },
+    {
+        "title":"fax safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/fax_safe.txt",
+        "notes":"This should remove anything with pattern fax:"
+    },
+    {
+        "title":"few safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/few_safe.txt",
+        "notes":"This should remove anything with pattern few"
+    },
+    {
+        "title":"fiber safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/fiber_safe.txt",
+        "notes":"This should remove anything with pattern fiber"
+    },
+    {
+        "title":"file safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/file_safe.txt",
+        "notes":"This should remove anything with pattern on file"
+    },
+    {
+        "title":"floor safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/floor_safe.txt",
+        "notes":"This should remove anything with pattern on the floor"
+    },
+    {
+        "title":"flexion/extension safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/flexion_extension_safe.txt",
+        "notes":"This should remove anything with pattern on the flexion/extension ?/5"
+    },
+    {
+        "title":"found safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/found_safe.txt",
+        "notes":"This should remove anything with pattern found"
+    },
+    {
+        "title":"go safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/go_safe.txt",
+        "notes":"This should remove anything with pattern go"
+    },
+    {
+        "title":"grade safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/grade_safe.txt",
+        "notes":"This should remove anything with pattern grade"
+    },
+    {
+        "title":"gross safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/gross_safe.txt",
+        "notes":"This should remove anything with pattern gross description"
+    },
+    {
+        "title":"index safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/index_safe.txt",
+        "notes":"This should remove anything with pattern mass index"
+    },
+    {
+        "title":"measurement safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/measurement_safe.txt",
+        "notes":"This should remove anything with pattern grams, etc"
+    },
+    {
+        "title":"medication safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/medication_safe.txt",
+        "notes":""
+    },
+    {
+        "title":"hearing safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/hearing_safe.txt",
+        "notes":"This should remove anything with pattern hearing loss/aid"
+    },
+    {
+        "title":"HENT safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/HENT_safe.txt",
+        "notes":"This should remove anything with pattern HENT:"
+    },
+    {
+        "title":"hour safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/hour_safe.txt",
+        "notes":"This should remove anything with pattern hour"
+    },
+    {
+        "title":"how safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/how_safe.txt",
+        "notes":"This should remove anything with pattern how"
+    },
+    {
+        "title":"id safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/id_safe.txt",
+        "notes":""
+    },
+    {
+        "title":"independence safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/independence_safe.txt",
+        "notes":"This should remove anything with pattern level of independence"
+    },
+    {
+        "title":"intake safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/intake_safe.txt",
+        "notes":"This should remove anything with pattern intake/output"
+    },
+    {
+        "title":"key safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/key_safe.txt",
+        "notes":"This should remove anything with pattern key part"
+    },
+    {
+        "title":"knee safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/knee_safe.txt",
+        "notes":"This should remove anything with pattern left/right knee"
+    },
+    {
+        "title":"last safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/last_safe.txt",
+        "notes":"This should remove anything with pattern last # encounters"
+    },
+    {
+        "title":"lb safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/lb_safe.txt",
+        "notes":"This should remove anything with pattern x lb"
+    },
+    {
+        "title":"lab safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/lab_safe.txt",
+        "notes":"This should remove anything with pattern lab results"
+    },
+    {
+        "title":"learn safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/learn_safe.txt",
+        "notes":"This should remove anything with pattern learn"
+    },
+    {
+        "title":"loop safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/loop_safe.txt",
+        "notes":"This should remove anything with pattern flow-volume loop"
+    },
+    {
+        "title":"max safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/max_safe.txt",
+        "notes":"This should remove anything with pattern max x"
+    },
+    {
+        "title":"mac safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/mac_safe.txt",
+        "notes":"This should remove anything with pattern mac mg"
+    },
+    {
+        "title":"may safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/may_safe.txt",
+        "notes":""
+    },
+    {
+        "title":"medical safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/medical_safe.txt",
+        "notes":"This should remove anything with pattern medical"
+    },
+    {
+        "title":"md safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/md_safe.txt",
+        "notes":"This should remove anything with pattern M.D."
+    },
+    {
+        "title":"mono safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/mono_safe.txt",
+        "notes":""
+    },
+    {
+        "title":"micro safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/micro_safe.txt",
+        "notes":"This should remove anything with pattern micro source"
+    },
+    {
+        "title":"morning safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/morning_safe.txt",
+        "notes":"This should remove anything with pattern morning"
+    },
+    {
+        "title":"mri safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/mri_safe.txt",
+        "notes":"This should remove anything with pattern brain mri"
+    },
+    {
+        "title":"na safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/na_safe.txt",
+        "notes":"This should remove anything with pattern na x"
+    },
+    {
+        "title":"night safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/night_safe.txt",
+        "notes":"This should remove anything with pattern night"
+    },
+    {
+        "title":"non safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/non_safe.txt",
+        "notes":"This should remove anything with pattern non-x"
+    },
+    {
+        "title":"not safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/not_safe.txt",
+        "notes":"This should remove anything with pattern not"
+    },
+    {
+        "title":"onset safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/onset_safe.txt",
+        "notes":"This should remove anything with pattern age of onset"
+    },
+    {
+        "title":"other safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/other_safe.txt",
+        "notes":"This should remove anything with pattern other"
+    },
+    {
+        "title":"pap safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/pap_safe.txt",
+        "notes":"This should remove anything with pattern pap x"
+    },
+    {
+        "title":"parkinson safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/parkinson_safe.txt",
+        "notes":""
+    },
+    {
+        "title":"pounds safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/pounds_safe.txt",
+        "notes":"This should remove anything with pattern x pounds"
+    },
+    {
+        "title":"ROS safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/ROS_safe.txt",
+        "notes":"This should remove anything with pattern ROS:"
+    },
+        {
+        "title":"scope safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/scope_safe.txt",
+        "notes":"This should remove anything with pattern the scope"
+    },
+        {
+        "title":"sao2 safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/sao2_safe.txt",
+        "notes":"This should remove anything with pattern the sao2%"
+    },
+        {
+        "title":"the safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/the_safe.txt",
+        "notes":"This should remove anything with pattern to the or of the"
+    },
+    {
+        "title":"UTI safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/UTI_safe.txt",
+        "notes":"This should remove anything with pattern UTI"
+    },
+    {
+        "title":"sci notation safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/sci_notation_safe.txt",
+        "notes":"This should remove anything with pattern in scientific notation"
+    },
+    {
+        "title":"time range safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/time_range_safe.txt",
+        "notes":"This should remove anything with pattern in time range"
+    },
+    {
+        "title":"young safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/young_safe.txt",
+        "notes":"This should remove anything with pattern young adult"
+    },
+    {
+        "title":"oral safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/oral_safe.txt",
+        "notes":"This should remove anything with pattern oral"
+    },  
+    {
+        "title": "ordering md safe",
+        "type": "regex",
+        "exclude": false,
+        "filepath": "filters/regex/safe/ordering_md_safe.txt",
+        "note": ""
+    }, 
+    {
+        "title": "order md safe",
+        "type": "regex",
+        "exclude": false,
+        "filepath": "filters/regex/safe/order_md_safe.txt",
+        "note": ""
+    },
+    {
+        "title": "peak safe",
+        "type": "regex",
+        "exclude": false,
+        "filepath": "filters/regex/safe/prn_safe.txt",
+        "note": ""
+    },  
+    {
+        "title": "prn safe",
+        "type": "regex",
+        "exclude": false,
+        "filepath": "filters/regex/safe/peak_safe.txt",
+        "note": ""
+    },  
+    {
+        "title": "reviewed by safe",
+        "type": "regex",
+        "exclude": false,
+        "filepath": "filters/regex/safe/reviewed_by_safe.txt",
+        "note": ""
+    }, 
+    {
+        "title": "smoking safe",
+        "type": "regex",
+        "exclude": false,
+        "filepath": "filters/regex/safe/smoking_safe.txt",
+        "note": ""
+    },     
+    {
+        "title":"full street address",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/full_street_address_transformed.txt",
+        "notes":"This should remove anything that looks like a full street address (numbers and words)"
+    },
+    {
+        "title":"full street address with concatenated street indicator",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/full_street_address_with_concatenated_indicator_transformed.txt",
+        "notes":""
+    },
+    {
+        "title":"number streetname city",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/num_streetname_city_transformed.txt",
+        "notes":""
+    },
+    {
+        "title":"hospital name 1",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/hospital1.txt",
+        "notes":"This should remove anything the resembles a hospital name"
+    },
+    {
+        "title":"hospital name 2",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/hospital2.txt",
+        "notes":"This should remove anything the resembles a hospital name"
+    },  
+    {
+        "title":"number streetname noindicator suite",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/number_streetname_noindicator_suite_transformed.txt",
+        "notes":"This should remove anything that looks like a street address with a floor number extension"
+    },
+    {
+        "title":"number streetname city state",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/num_streetname_city_state_transformed.txt",
+        "notes":""
+    },
+    {
+        "title":"number streetname extension?",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/num_streetname_extension?_transformed.txt",
+        "notes":"This should remove anything that looks like a street address (with a possible extension)"
+    },
+    {
+        "title":"number streetname san",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/num_streetname_san_transformed.txt",
+        "notes":"This should remove anything that looks like the beginning of a street address followed by san (like san francsico)"
+    },
+    {
+        "title":"number streetname",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/num_streetname_transformed.txt",
+        "notes":"This should remove anything that looks like the begiing of a street address"
+    },
+
+    {
+        "title":"corner of street & street",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/corner_of_street_&_street_transformed.txt",
+        "notes":"This should remove anything that looks like a street corner"
+    },
+    {
+        "title":"street and street",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/street_and_street_transformed.txt",
+        "notes":"This should remove anything that looks like a street corner"
+    },
+    {
+        "title":"at street number dash street",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/at_street_number_dash_street_transformed.txt",
+        "notes":"This should remove anything that looks like a street corner"
+    },
+    {
+        "title":"at dash street",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/at_street_dash_street_transformed.txt",
+        "notes":"This should remove anything that looks like a street corner"
+    },
+    {
+        "title":"short street name",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/short_street_name_transformed.txt",
+        "notes":""
+    },
+
+    {
+        "title":"streetname floor number",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/streetname_floor_number_transformed.txt",
+        "notes":"This should remove anything that looks like a street address with a suite number extension"
+    },
+    {
+        "title":"city state zip",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/city_state_zip_transformed.txt",
+        "notes":"This should remove anything that looks like a partial street address (city, state, zip"
+    },
+    {
+        "title":"city zip",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/city_zip_transformed.txt",
+        "notes":"This should remove anything that has a city name, followed by a zip code"
+    },
+
+    {
+        "title":"lives in",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/lives_in_transformed.txt",
+        "notes":"This should remove anything that matches pattern lives in/on"
+    },
+    {
+        "title":"city state",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/city_state_transformed.txt",
+        "notes":"This should remove anything that has a city name, followed by a state name/abbrev"
+    },
+    {
+        "title":"county name",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/county_name_transformed.txt",
+        "notes":""
+    },
+    {
+        "title":"in city",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/in_city_transformed.txt",
+        "notes":"This should remove anything that has a city name"
+    },
+    {
+        "title":"city",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/city_transformed.txt",
+        "notes":"This should remove anything that matches pattern [name] [city]"
+    },
+    {
+        "title":"hospitalized at",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/organizations/hospitalized_at_15chars.txt",
+        "notes":"This should remove anything with 'hospitalized at' followed by a proper noun"
+    },
+    {
+        "title":"admission from",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/organizations/admission_from_14chars.txt",
+        "notes":"This should remove anything with 'admission from' followed by a proper noun"
+    },
+    {
+        "title":"admitted from",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/organizations/admitted_from_hospital_13chars.txt",
+        "notes":"This should remove anything with 'admitted from' followed by a proper noun"
+    },
+    {
+        "title":"admission to",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/organizations/admission_to_hospital_12chars.txt",
+        "notes":"This should remove anything with 'admission to' followed by a proper noun"
+    },
+    {
+        "title":"admitted to 1",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/organizations/admitted_to_hospital_11chars.txt",
+        "notes":"This should remove anything with 'admitted to' followed by a proper noun"
+    },
+    {
+        "title":"brought to",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/organizations/brought_to_hospital_10chars.txt",
+        "notes":"This should remove anything with 'brought to' followed by a proper noun"
+    },
+    {
+        "title":"taken to",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/organizations/taken_to_hospital_8chars.txt",
+        "notes":"This should remove anything with 'taken to' followed by a proper noun"
+    },
+    {
+        "title":"admitted to 2",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/organizations/admitted_to_hospital_7chars.txt",
+        "notes":"This should remove anything with 'admitted to' followed by a proper noun"
+    },
+    {
+        "title":"box room",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/box_room_transformed.txt",
+        "notes":"This should remove anything that has pattern box # followed by room #"
+    },
+    {
+        "title":"room box",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/room_box_transformed.txt",
+        "notes":"This should remove anything that has pattern room # followed by box #"
+    },
+    {
+        "title":"floor box",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/floor_box_transformed.txt",
+        "notes":"This should remove anything that has pattern floor # followed by box #"
+    },
+    {
+        "title":"desk #",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/desk_#_transformed.txt",
+        "notes":"This should remove anything that has pattern desk #"
+    },
+    {
+        "title":"pharmacy #",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/pharmacy_#_transformed.txt",
+        "notes":"This should remove anything that has pattern pharmacy #"
+    },
+    {
+        "title":"at location",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/at_address_noindicator_transformed.txt",
+        "notes":"This should remove anything that has pattern at X"
+    },
+    {
+        "title":"waiting room",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/waiting_room_transformed.txt",
+        "notes":"This should remove anything that has pattern waiting room"
+    },
+    {
+        "title":"to state",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/to_state_transformed.txt",
+        "notes":"This should remove anything that has pattern to [state name]"
+    },
+    {
+        "title":"state indicator",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/state_indicator_transformed.txt",
+        "notes":"This should remove anything that has pattern to [state name]"
+    },
+    {
+        "title":"on streetname",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/streetname_only_transformed.txt",
+        "notes":"This should remove anything that has pattern on [street name]"
+    },
+    {
+        "title":"box",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/box_transformed.txt",
+        "notes":"This should remove anything that has a box number"
+    },
+    {
+        "title":"room",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/addresses/room_#_transformed.txt",
+        "notes":"This should remove anything that has a room number"
+    },
+    {
+        "title":"days safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/days_safe.txt",
+        "notes":"This should remove anything with pattern XX days"
+    },
+    {
+        "title":"male safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/male_safe.txt",
+        "notes":"This should remove anything with pattern year old male"
+    },
+    {
+        "title":"bp safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/bp_safe.txt",
+        "notes":"This should remove anything with pattern bp"
+    },
+    {
+        "title":"units safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/units_safe.txt",
+        "notes":"This should remove anything with pattern unit"
+    },
+    {
+        "title":"tablet safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/tablet_safe.txt",
+        "notes":"This should remove anything with pattern tablet"
+    },
+    {
+        "title":"pain safe",
+        "type":"regex",
+        "exclude":false,
+        "filepath":"filters/regex/safe/pain_safe.txt",
+        "notes":"This should remove anything with pattern pain"
+    },
+    {
+        "title":"YYYY/MM-YYYY/MM",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/YYYY_MM-YYYY_MM_transformed.txt",
+        "notes":"This should remove anything with pattern YYYY/MM-YYYY/MM",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"MM/DD/YY-MM/DD/YY",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/MM_DD_YY-MM_DD_YY_transformed.txt",
+        "notes":"This should remove anything with pattern MM/DD/YY-MM/DD/YY",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"MM/YYYY-MM/YYYY",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/MM_YYYY-MM_YYYY_transformed.txt",
+        "notes":"This should remove anything with pattern MM/YYYY-MM/YYYY",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"MM/YY-MM/YY",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/MM_YY-MM_YY_transformed.txt",
+        "notes":"This should remove anything with pattern MM/YY-MM/YY",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"MM/DD-MM/DD",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/MM_DD-MM_DD_transformed.txt",
+        "notes":"This should remove anything with pattern MM/DD-MM/DD",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"DD/MM-DD/MM",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/DD_MM-DD_MM_transformed.txt",
+        "notes":"This should remove anything with pattern DD/MM-DD/MM",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"day_name_dd_month_name_yy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/day_name_dd_month_name_yy_transformed.txt",
+        "notes":"This should remove anything with pattern day_name_dd_month_name_yy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"day_name_month_name_dd_yy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/day_name_month_name_dd_yy_transformed.txt",
+        "notes":"This should remove anything with pattern day_name_month_name_dd_yy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"day_name_month_name_dd_yyyy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/day_name_month_name_dd_yyyy_transformed.txt",
+        "notes":"This should remove anything with pattern day_name_month_name_dd_yyyy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"day_name_dd_month_name_yyyy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/day_name_dd_month_name_yyyy_transformed.txt",
+        "notes":"This should remove anything with pattern day_name_dd_month_name_yyyy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"day_name_month_name_dd",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/day_name_month_name_dd_transformed.txt",
+        "notes":"This should remove anything with pattern day_name_month_name_dd",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"day_name_dd_month_name",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/day_name_dd_month_name_transformed.txt",
+        "notes":"This should remove anything with pattern day_name_dd_month_name",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"dd_month_name_yy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/dd_month_name_yy_transformed.txt",
+        "notes":"This should remove anything with pattern dd_month_name_yy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"dd_month_name_yyyy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/dd_month_name_yyyy_transformed.txt",
+        "notes":"This should remove anything with pattern dd_month_name_yyyy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"month_name_dd_yy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/month_name_dd_yy_transformed.txt",
+        "notes":"This should remove anything with pattern month_name_dd_yy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"month_name_dd_yyyy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/month_name_dd_yyyy_transformed.txt",
+        "notes":"This should remove anything with pattern month_name_dd_yyyy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"yy_month_name_dd",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/yy_month_name_dd_transformed.txt",
+        "notes":"This should remove anything with pattern yy_month_name_dd",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"yyyy_month_name_dd",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/yyyy_month_name_dd_transformed.txt",
+        "notes":"This should remove anything with pattern yyyy_month_name_dd",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"yyyy_month_name",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/yyyy_month_name_transformed.txt",
+        "notes":"This should remove anything with pattern yyyy_month_name",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"month_name_dd",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/month_name_dd_transformed.txt",
+        "notes":"This should remove anything with pattern month_name_dd",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"dd_mm_yy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/dd_mm_yy_transformed.txt",
+        "notes":"This should remove anything with pattern dd_mm_yy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"dd_mm_yyyy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/dd_mm_yyyy_transformed.txt",
+        "notes":"This should remove anything with pattern dd_mm_yyyy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"yy_mm_dd",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/yy_mm_dd_transformed.txt",
+        "notes":"This should remove anything with pattern yy_mm_dd",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"mm_dd_yy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/mm_dd_yy_transformed.txt",
+        "notes":"This should remove anything with pattern mm_dd_yy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"yyyy_mm_dd",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/yyyy_mm_dd_transformed.txt",
+        "notes":"This should remove anything with pattern yyyy_mm_dd",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"mm_dd_yyyy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/mm_dd_yyyy_transformed.txt",
+        "notes":"This should remove anything with pattern mm_dd_yyyy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"mm_yyyy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/mm_yyyy_transformed.txt",
+        "notes":"This should remove anything with pattern mm_yyyy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"dd_mm",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/dd_mm_transformed.txt",
+        "notes":"This should remove anything with pattern dd_mm",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"mm_dd",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/mm_dd_transformed.txt",
+        "notes":"This should remove anything with pattern mm_dd",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"mm_yy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/mm_yy_transformed.txt",
+        "notes":"This should remove anything with pattern mm_yy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"month_name_of_yy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/month_name_of_yy_transformed.txt",
+        "notes":"This should remove anything with pattern month_name_of_yy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"month_name_of_yyyy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/month_name_of_yyyy_transformed.txt",
+        "notes":"This should remove anything with pattern month_name_of_yyyy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"month_name_yy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/month_name_yy_transformed.txt",
+        "notes":"This should remove anything with pattern month_name_yy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"month_name_yyyy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/month_name_yyyy_transformed.txt",
+        "notes":"This should remove anything with pattern month_name_yyyy",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"day_numbering_of_month",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/day_numbering_of_month_transformed.txt",
+        "notes":"This should remove anything with pattern day_numbering_of_month",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"month_name_xst_xnd_xth",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/month_name_xst_xnd_xth_transformed.txt",
+        "notes":"This should remove anything with pattern month_name_xst_xnd_xth",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"on_or_by_the_day_numbering",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/on_or_by_the_day_numbering_transformed.txt",
+        "notes":"This should remove anything with pattern on_or_by_the_day_numbering",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"as of date",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/as_of_date.txt",
+        "notes":"This should remove anything with pattern as of d/d",
+        "phi_type":"DATE"
+    },  
+    {
+        "title":"season of yyyy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/season_of_yyyy_transformed.txt",
+        "notes":"",
+        "phi_type":"DATE"
+    }, 
+    {
+        "title":"season of yy",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/season_of_yy_transformed.txt",
+        "notes":"",
+        "phi_type":"DATE"
+    }, 
+    {
+        "title":"month_name",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/dates/month_name_transformed.txt",
+        "notes":"This should remove anything with pattern month_name",
+        "phi_type":"DATE"
+    },
+    {
+        "title":"model number",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/model_number.txt",
+        "notes":"This should remove anything with pattern model number"
+    },
+    {
+        "title":"lot #",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/lot_#.txt",
+        "notes":"This should remove anything with pattern lot #"
+    },      
+    {
+        "title":"id verbose",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/id_verbose.txt",
+        "notes":"This should remove anything with pattern ID: XXXXX"
+    },      
+    {
+        "title":"activation code",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/activation_code.txt",
+        "notes":"This should remove anything with pattern activation code: XXXXX-XXXX-XXXXX"
+    },              
+    {
+        "title":"six or more digits",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/DDDDDD+.txt",
+        "notes":"This should remove anything that matches any number with 6 or more digits (15 limit is arbitrary)"
+    },
+    {
+        "title":"order number",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/order_number.txt",
+        "notes":"This should remove anything that matches order number ..."
+    },
+    {
+        "title":"specimen number",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/specimen_#.txt",
+        "notes":"This should remove anything that matches specimen number ..."
+    },
+    {
+        "title":"cassette_#",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/cassette_#.txt",
+        "notes":"This should remove anything that matches cassette_# ..."
+    },
+    {
+        "title":"# reviewed by",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/#_reviewed_by.txt",
+        "notes":"This should remove anything that matches # reviewed by ..."
+    },
+    {
+        "title":"account #",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/account_#.txt",
+        "notes":"This should remove anything that matches account #"
+    },
+    {
+        "title":"accession #",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/accession_#.txt",
+        "notes":"This should remove anything that matches accession #"
+    },
+    {
+        "title":"tape number",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/tape_number.txt",
+        "notes":"This should remove anything that matches tape number"
+    },
+    {
+        "title":"CCDDDD-D-CC",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/CCDDDD-D-CC.txt",
+        "notes":"This should remove anything that matches CCDDDD-D-CC"
+    },
+    {
+        "title":"DDCCCDDD",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/DDCCCDDD.txt",
+        "notes":"This should remove anything that matches DDCCCDDD"
+    },
+    {
+        "title":"CCDDD_DDD",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/CCDDD_DDD.txt",
+        "notes":"This should remove anything that matches NNDDD(anything)DDDD"
+    },
+    {
+        "title":"DDDD_DDD",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/DDDD_DDD.txt",
+        "notes":"This should remove anything that matches DDDD-DDD"
+    },
+    {
+        "title":"CDD_DDDD+",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/CDD_DDDD+.txt",
+        "notes":"This should remove anything that matches NCDD_DDDD+"
+    },
+    {
+        "title":"mixed 2",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/mixed002.txt",
+        "notes":"This should remove anything that matches NND"
+    },
+    {
+        "title":"mixed 3",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/mixed003.txt",
+        "notes":"This should remove anything that matches DDDDNNN"
+    },
+    {
+        "title":"mixed 4",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/mixed004.txt",
+        "notes":"This should remove anything that matches DDDN+"
+    },
+    {
+        "title":"mixed 5",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/mixed005.txt",
+        "notes":"This should remove anything that matches CDC"
+    },  
+    {
+        "title":"mixed 6",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/mixed006.txt",
+        "notes":"This should remove anything that matches CDDDC"
+    },
+    {
+        "title":"mixed 7",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/mixed007.txt",
+        "notes":"This should remove anything that matches a weird string of numbers/letters connected by colons etc"
+    },
+    {
+        "title":"mixed 8",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/mixed008.txt",
+        "notes":"This should remove anything that matches a (longer) weird string of numbers/letters connected by colons etc"
+    },
+    {
+        "title":"mixed 10",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/mixed_010_transformed.txt",
+        "notes":"This should remove anything with weird number/letter mashups"
+    },
+    {
+        "title":"CCCDDD",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/CCCDDD.txt",
+        "notes":"This should remove anything that matches CCCDDD"
+    },  
+    {
+        "title":"visit code",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/visit_code.txt",
+        "notes":""
+    },  
+    {
+        "title":"DDDDCDDDDD",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/DDDDCDDDDD.txt",
+        "notes":"This should remove anything that matches DDDDCDDDDD"
+    },
+    {
+        "title":"DDD-DD-DD",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/DDD-DD-DD.txt",
+        "notes":"This should remove anything that matches any number with pattern DDD-DD-DD"
+    },
+    {
+        "title":"DD-DD-DD-DD",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/DD-DD-DD-DD.txt",
+        "notes":"This should remove anything that matches any numbers separated by 3 dashes"
+    },  
+    {
+        "title":"DD-DDDDDC",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/DD-DDDDDC.txt",
+        "notes":"This should remove anything that matches any number with DD-DDDDDC"
+    },
+    {
+        "title":"****DC",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/blocked_DC.txt",
+        "notes":"This should remove anything that matches any blocked MRN number with last digits"
+    },
+    {
+        "title":"model and serial numbers",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/model_and_serial.txt",
+        "notes":"This should remove anything that matches a model or serial number pattern"
+    },
+    {
+        "title":"ssn only",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/ssn.txt",
+        "notes":"This should remove anything that matches XXX-XX-XXXX"
+    },
+    {
+        "title":"file indicator",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/mrn_id/file_indicator.txt",
+        "notes":"This should remove anything that matches XXX-XX-XXXX"
+    },
+    {
+        "title":"url",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/contact/url.txt",
+        "notes":"This should remove anything that looks like a url"
+    },
+    {
+        "title":"call #",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/contact/call_#.txt",
+        "notes":"This should remove anything that matches call #: etc."
+    },
+    {
+        "title":"emails",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/contact/email.txt",
+        "notes":"This should remove anything that looks like an email"
+    },
+    {
+        "title":"xxx_xxx_xxxx",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/contact/xxx_xxx_xxxx.txt",
+        "notes":"This should remove anything that xxx.xxx.xxxx"
+    },
+    {
+        "title":"xxx_xxx_CCCC",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/contact/xxx_xxx_CCCC.txt",
+        "notes":"This should remove anything that xxx.xxx.CCCC+"
+    },
+    {
+        "title":"5 digit pager",
+        "type":"regex",
+        "exclude":true,
+        "filepath":"filters/regex/contact/pager.txt",
+        "notes":"This should remove anything that matches a pager number"
+    },
+    {
+        "title": "lived to x",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/age/lived_to_x.txt",
+        "note": ""
+    },
+    {
+        "title": "x years old",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/age/x_years_old.txt",
+        "note": ""
+    },
+    {
+        "title": "x year old",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/age/x_year_old.txt",
+        "note": ""
+    },
+    {
+        "title": "age x",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/age/age_x.txt",
+        "note": ""
+    },
+    {
+        "title": "x yo",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/age/x_yo.txt",
+        "note": ""
+    },
+      {
+        "title": "confirmed by name",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/confirmed_by_name.txt",
+        "note": ""
+    },  
+      {
+        "title": "editor name",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/editor_name.txt",
+        "note": ""
+    }, 
+      {
+        "title": "code status name",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/code_status_name.txt",
+        "note": ""
+    },  
+  {
+        "title": "attending",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/attending.txt",
+        "note": ""
+    },
+    {
+        "title": "u_#_patient",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/u_#_patient.txt",
+        "note": ""
+    },
+    {
+        "title": "patient mrn",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/patient_mrn.txt",
+        "note": ""
+    },
+    {
+        "title": "name_age",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/name_age.txt",
+        "note": ""
+    },
+    {
+        "title": "patient/provider",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/patient_provider.txt",
+        "note": ""
+    },
+    {
+        "title": "patient summary",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/patient_summary.txt",
+        "note": ""
+    },
+    {
+        "title": "wrote",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/wrote.txt",
+        "note": ""
+    },     
+    {
+        "title": "salutations1",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/pre_salutations_2chars.txt",
+        "note": ""
+    },
+    {
+        "title": "salutations2",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/pre_salutations_3chars.txt",
+        "note": ""
+    },
+    {
+        "title": "salutations3",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/pre_salutations_4chars.txt",
+        "note": ""
+    },
+    {
+        "title": "salutations4",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/pre_salutations_5chars.txt",
+        "note": ""
+    },
+    {
+        "title": "Md PhD",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/md_phd.txt",
+        "note": ""
+    },
+    {
+        "title": "salutations5",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/post_salutations_2chars.txt",
+        "note": ""
+    },
+    {
+        "title": "salutations6",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/post_salutations_3chars.txt",
+        "note": ""
+    },
+    {
+        "title": "salutations7",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/post_salutations_4chars.txt",
+        "note": ""
+    },
+    {
+        "title": "names patterns",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/name_patterns.txt",
+        "note": ""
+    },
+    {
+        "title": "ordering md",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/ordering_md.txt",
+        "note": ""
+    },
+       {
+        "title": "name indicator",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/name_indicator.txt",
+        "note": ""
+    },
+    {
+        "title": "relative indicator",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/relative_indicator.txt",
+        "note": ""
+    },
+     {
+        "title": "dr ambiguous",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/dr_ambiguous.txt",
+        "note": ""
+    },
+     {
+        "title": "dash doctor",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/dash_doctor.txt",
+        "note": "________doctor name"
+    },
+     {
+        "title": "patient present",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/patient_present.txt",
+        "note": ""
+    },
+     {
+        "title": "patient measurements",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/patient_measurements.txt",
+        "note": ""
+    },
+     {
+        "title": "patholigist",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/pathologist.txt",
+        "note": ""
+    },
+     {
+        "title": "email header",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/email_header.txt",
+        "note": ""
+    },
+       {
+        "title": "by doctor number",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/by_doctor_number.txt",
+        "note": ""
+    },
+       {
+        "title": "sent note to",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/salutations/sent_note_to.txt",
+        "note": ""
+    },
+       {
+        "title": "ucsf SF",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/ucsf_regex/ucsf_sf.txt",
+        "note": ""
+    },
+    {
+        "title": "ucsf bay area",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/ucsf_regex/ucsf_bay_area.txt",
+        "note": ""
+    },
+    {
+        "title": "ucsf neighborhoods",
+        "type": "regex",
+        "exclude": true,
+        "filepath": "filters/regex/ucsf_regex/ucsf_neighborhoods.txt",
+        "note": ""
+    },
+      {
+        "title": "Names Blacklist",
+        "type": "set",
+        "exclude": true,
+        "filepath": "/data/muenzenk/fp_analysis/names_blacklist_sub_100_fps_withnames_x2.json",
+        "pos": [
+            "NNP"
+        ],
+        "notes": "These are words we believe are not safe"
+    },
+    {
+        "title":"Whitelist 1",
+        "type":"set",
+        "exclude":false,
+        "filepath":"/data/muenzenk/add_fps_to_whitelist_091718/whitelist_plus_fps_091718_nonames.json",
+        "pos":[],
+        "notes":"These are words we beleive are safe"
+    },
+    {
+        "title":"POS MATCHER",
+        "type":"pos_matcher",
+        "exclude":false,
+        "pos":["CD"],
+        "notes":"This will include any CDs that aren't included in earlier steps"
+    },
+    {
+        "title":"Find Initials",
+        "type":"regex_context",
+        "exclude":true,
+        "filepath":"filters/regex_context/initials.txt",
+        "context":"left_or_right",
+        "notes":""
+    }
+
+]
