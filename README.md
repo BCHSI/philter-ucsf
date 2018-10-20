@@ -48,7 +48,7 @@ To run multiple jobs simultaneously, all input notes handled by a single job mus
 1. ./data/batch1/500_input_notes_batch1/
 2. ./data/batch2/500_input_notes_batch2/
 
-In this example, the following two commands would be used to start each job:
+In this example, the following two commands would be used to start running each job in the background:
 ```bash
 nohup python3 main.py -i ./data/batch1/500_input_notes_batch2/ -o ./data/i2b2_results_test/ -f ./configs/philter_delta.json --prod=True > ./data/batch1/batch1_terminal_out.txt 2>&1 &
 
