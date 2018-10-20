@@ -26,13 +26,13 @@ Before using Philter either with or without evaluation, make sure to familiarize
 
 ## 1. Running Philter WITHOUT evaluation (no ground-truth annotations required)
 
-**a.** Make sure the input file(s) are in plain text format. If you are using the I2B2 dataset (or any other dataset in XML or other formats), the note text must be extracted from each original file and be saved in individual text files.
+**a.** Make sure the input file(s) are in plain text format. If you are using the I2B2 dataset (or any other dataset in XML or other formats), the note text must be extracted from each original file and be saved in individual text files. Examples of properly formatted input files can be found in ./data/i2b2_notes/.
 
 **b.** Store all input file(s) in the same directory, and create an output directory (if you want the PHI-reduced notes to be stored somewhere other than the default location).
 
 **c.** Create a configuration file with specified filters (if you do not want to use the default configuration file).
 
-**d.** Run Philter in the command line using default or specified options.
+**d.** Run Philter in the command line using default or specified parameters.
 
 Use the following command to run a single job and output files in XML format:
 ```bash
@@ -43,7 +43,7 @@ If you'd like the output files to be in plain text format (with asterisks obscur
 python3 main.py -i ./data/i2b2_notes/ -o ./data/i2b2_results/ -f ./configs/philter_delta.json -e False
 ```
 
-To run multiple jobs simultaneously, all input notes handled by a single job must be located in separate directories. For example, if you wanted to Philter 1000 notes simultaneously on two processes, the two input directories might look like:
+To run multiple jobs simultaneously, all input notes handled by a single job must be located in separate directories to avoid contamination between output files. For example, if you wanted to run Philter on 1000 notes simultaneously on two processes, the two input directories might look like:
 
 1. ./data/batch1/500_input_notes_batch1/
 2. ./data/batch2/500_input_notes_batch2/
