@@ -3,7 +3,7 @@
 
 Philter is a command-line based clinical text de-identification software that removes protected health information (PHI) from any plain text file. Although the software has built-in evaluation capabilities and can compare Philter PHI-reduced notes with a corresponding set of ground truth annotations, annotations are not required to run Philter. The following steps may be used to 1) run Philter in the command line without ground truth annotations, or 2) generate Philter-compatible annotations and run Philter in evaluation mode using ground truth annotations.
 
-Before using Philter either with or without evaluation, make sure to familiarize yourself with the various options that may be specified for a given Philter run. 
+Before using Philter either with or without evaluation, make sure to familiarize yourself with the various options that may be used for any given Philter run:
 
 ### Flags:
 **-i (input):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path to the directory or the file that contains the clinical note(s), the default is ./data/i2b2_notes/<br/>
