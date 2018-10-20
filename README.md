@@ -43,7 +43,7 @@ If you'd like the output files to be in plain text format (with asterisks obscur
 python3 main.py -i ./data/i2b2_notes/ -o ./data/i2b2_results/ -f ./configs/philter_delta.json -e False
 ```
 
-To run multiple jobs simultaneously, all input notes handled by a single job must be located in separate directories to avoid contamination between output files. For example, if you wanted to run Philter on 1000 notes simultaneously on two processes, the two input directories might look like:
+To run multiple jobs simultaneously, all input notes handled by a single job must be located in separate directories to avoid cross-contamination between output files. For example, if you wanted to run Philter on 1000 notes simultaneously on two processes, the two input directories might look like:
 
 1. ./data/batch1/500_input_notes_batch1/
 2. ./data/batch2/500_input_notes_batch2/
