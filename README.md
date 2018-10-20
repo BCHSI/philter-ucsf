@@ -32,7 +32,7 @@ Before using Philter either with or without evaluation, make sure to familiarize
 
 **c.** Create a configuration file with specified filters (if you do not want to use the default configuration file).
 
-**d.** Run Philter in the command line using either default or specified parameters.
+**d.** Run Philter in the command line using either default or custom parameters.
 
 Use the following command to run a single job and output files in XML format:
 ```bash
