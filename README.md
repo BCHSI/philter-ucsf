@@ -1,6 +1,32 @@
-# Running Philter from the command line
 
-## Production Mode (no ground truth annotations required)
+# Running Philter: A Step-by-Step Guide
+
+Philter is a command-line based clinical de-identification software that removes protected health information (PHI) from any plain text file. Although the software has built-in evaluation capabilities and can compare notes de-identified by Philter with a corresponding set of ground truth annotations, annotations are not required to run Philter. The following steps may be used to 1) run Philter in the command line without ground truth annotations, or 2) generate Philter-compatible annotations and run Philter in evaluation mode.
+
+Before using Philter in either with or without evaluation, make sure to familiarize yourself with the various options that may be specified for a given Philter run. 
+
+### Flags:
+**-i (input):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path to the directory or the file that contains the PHI note, the default is ./data/i2b2_notes/<br/>
+**-a (anno):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path to the directory or the file that contains the PHI annotation, the default is ./data/i2b2_anno/<br/>
+**-o (output):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path to the directory to save the PHI-reduced notes in, the default is ./data/i2b2_results/<br/>
+**-f (filters):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path to the config file, the default is ./configs/philter_delta.json<br/>
+**-x (xml):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path to the json file that contains all xml data, the default is ./data/phi_notes.json<br/>
+**-c (coords):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path to the json file that contains the coordinate map data, the default is ./data/coordinates.json<br/>
+**-v (verbose):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When verbose is true, will emit messages about script progress. The default is True<br/>
+**-e (run_eval):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When run_eval is true, will run our eval script and emit summarized results to terminal<br/>
+**-t (freq_table):**&nbsp;&nbsp;&nbsp;&nbsp;When freqtable is true, will output a unigram/bigram frequency table of all note words and their PHI/non-PHI counts. Default is False<br/>
+**-n (initials):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When initials is true, will include initials PHI in recall/precision calculations. The default is True<br/>
+**--eval_output:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path to the directory that the detailed eval files will be outputted to, the default is ./data/phi/<br/>
+**--stanfordner:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path to Stanford NER, the default is /usr/local/stanford-ner/<br/>
+**--outputformat:**&nbsp;&nbsp;Define format of annotation, allowed values are \"asterisk\", \"i2b2\". Default is \"asterisk\"<br/>
+**--ucsfformat:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When ucsfformat is true, will adjust eval script for slightly different xml format. The default is False<br/>
+**--prod:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When prod is true, this will run the script with output in i2b2 xml format without running the eval script. The default is False<br/>
+**--cachepos:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path to a directoy to store/load the pos data for all notes. If no path is specified then memory caching will be used<br/>
+
+
+## 1. Running Philter WITHOUT evaluation (no ground-truth annotations required)
+
+a. Make sure the input file(s) are in plain text format. If you are using the I2B2 dataset, the note text must be extracted 
 Production mode will avoid outputting unnecessary print statements, and will skip the evaluation steps. Use the following command to run a single job:
 ```bash
 python3 main.py -i ./data/i2b2_notes/ -o ./data/i2b2_results/ -f ./configs/ucsf_pipeline_test_map_regex_context.json --prod=True
@@ -21,7 +47,7 @@ nohup python3 main.py -i ./data/batch2/500_input_notes_batch2/ -o ./data/i2b2_re
 
 ```
 
-## Evaluation Mode (ground truth annotations required)
+## 2. Running Philter WITH evaluation (ground truth annotations required)
 ```bash
 python3 main.py -i ./data/i2b2_notes/ -a ./data/i2b2_anno/ -o ./data/i2b2_results/ -x ./data/phi_notes_i2b2.json -f=./configs/ucsf_pipeline_test_map_regex_context.json
 ```
@@ -41,3 +67,4 @@ This script expects notes in xml format, and transforms each input file into two
 -o Path to the json file that will contain a summary of the phi in the xml files<br/>
 -n Path to the directory where you would like to store the plain text notes<br/>
 -a Path to the directory where you would like to store the plain text annotations<br/>
+
