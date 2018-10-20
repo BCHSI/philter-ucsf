@@ -76,8 +76,9 @@ python3 ./generate_dataset/main_ucsf_updated.py -x ./data/i2b2_xml/ -o ./data/ph
 ```
 Note: If this command produces an ElementTree.ParseError, you may need to remove .DS_Store from ./data/i2b2_xml.
 
-**b-d** See Step 1 above
- Run Philter in evaluation mode using the following command:
+**b-c.** See Step 1 above
+
+**d.** Run Philter in evaluation mode using the following command:
 
 ```bash
 python3 main.py -i ./data/i2b2_notes/ -a ./data/i2b2_anno/ -o ./data/i2b2_results/ -x ./data/phi_notes_i2b2.json -f=./configs/ucsf_pipeline_test_map_regex_context.json
