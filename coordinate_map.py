@@ -123,7 +123,7 @@ class CoordinateMap:
 	def scan(self):
 		""" does an inorder scan of the coordinates and their values"""
 		for fn in self.map:
-			coords = self.map[fn].keys()
+			coords = list(self.map[fn].keys())
 			coords.sort()
 			for coord in coords:
 				yield fn,coord,self.map[fn][coord]
