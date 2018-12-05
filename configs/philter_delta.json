@@ -2237,7 +2237,7 @@
         "title":"Whitelist 1",
         "type":"set",
         "exclude":false,
-        "filepath":"/data/shared/ucsf_whitelists/whitelist_plus_fps_091718_nonames.json",
+        "filepath":"filters/whitelists/whitelist_plus_fps_091718_nonames.json",
         "pos":[],
         "notes":"These are words we beleive are safe"
     },
