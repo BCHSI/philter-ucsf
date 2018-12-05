@@ -38,9 +38,9 @@ Use the following command to run a single job and output files in XML format:
 ```bash
 python3 main.py -i ./data/i2b2_notes/ -o ./data/i2b2_results/ -f ./configs/philter_delta.json --prod=True
 ```
-If you'd like the output files to be in plain text format (with asterisks obscuring PHI), simply remove the --prod option and add the -e False option:
+If you'd like the output files to be in plain text format (with asterisks obscuring PHI), simply add the -outputformat "asterisk" option:
 ```bash
-python3 main.py -i ./data/i2b2_notes/ -o ./data/i2b2_results/ -f ./configs/philter_delta.json -e False
+python3 main.py -i ./data/i2b2_notes/ -o ./data/i2b2_results/ -f ./configs/philter_delta.json --prod=True --outputformat "asterisk"
 ```
 
 To run multiple jobs simultaneously, all input notes handled by a single job must be located in separate directories to avoid cross-contamination between output files. For example, if you wanted to run Philter on 1000 notes simultaneously on two processes, the two input directories might look like:
