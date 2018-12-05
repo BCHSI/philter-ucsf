@@ -23,6 +23,15 @@ Before running Philter either with or without evaluation, make sure to familiari
 **--prod:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When prod is true, this will run the script with output in i2b2 xml format without running the eval script. The default is False<br/>
 **--cachepos:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Path to a directoy to store/load the pos data for all notes. If no path is specified then memory caching will be used<br/>
 
+## 0. Curating I2B2 XML Files
+To remove non-HIPAA PHI annotations from the I2B2 XML files, run the following command:
+
+**-i** Path to the directory that contains the original I2B2 xml files<br/>
+**-o** Path to the directory where the curated files will be written<br/>
+
+```bash
+python improve_i2b2_notes.py -i data/i2b2_xml/ -o data/i2b2_xml_updated/
+```
 
 ## 1. Running Philter WITHOUT evaluation (no ground-truth annotations required)
 
@@ -72,7 +81,7 @@ nohup python3 main.py -i ./data/batch2/500_input_notes_batch2/ -o ./data/i2b2_re
 Use the following command to create these input files from notes in XML format:
 
 ```bash
-python3 ./generate_dataset/main_ucsf_updated.py -x ./data/i2b2_xml/ -o ./data/phi_notes_i2b2.json -n ./data/i2b2_notes/ -a ./data/i2b2_anno/
+python3 ./generate_dataset/main_ucsf_updated.py -x ./data/i2b2_xml_updated/ -o ./data/phi_notes_i2b2.json -n ./data/i2b2_notes/ -a ./data/i2b2_anno/
 ```
 Note: If this command produces an ElementTree.ParseError, you may need to remove .DS_Store from ./data/i2b2_xml.
 
