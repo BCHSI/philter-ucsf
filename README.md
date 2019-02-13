@@ -81,7 +81,7 @@ nohup python3 main.py -i ./data/batch2/500_input_notes_batch2/ -o ./data/i2b2_re
 Use the following command to create these input files from notes in XML format:
 
 ```bash
-python3 ./generate_dataset/main_ucsf_updated.py -x ./data/i2b2_xml_updated/ -o ./data/phi_notes_i2b2.json -n ./data/i2b2_notes/ -a ./data/i2b2_anno/
+python3 ./generate_dataset/main_ucsf_updated.py -x ./data/i2b2_xml/ -o ./data/phi_notes_i2b2.json -n ./data/i2b2_notes/ -a ./data/i2b2_anno/
 ```
 Note: If this command produces an ElementTree.ParseError, you may need to remove .DS_Store from ./data/i2b2_xml.
 
