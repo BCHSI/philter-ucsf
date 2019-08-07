@@ -984,7 +984,7 @@
         "title":"number streetname extension?",
         "type":"regex",
         "exclude":true,
-        "filepath":"filters/regex/addresses/num_streetname_extension?_transformed.txt",
+        "filepath":"filters/regex/addresses/num_streetname_extension_transformed.txt",
         "notes":"This should remove anything that looks like a street address (with a possible extension)"
     },
     {
