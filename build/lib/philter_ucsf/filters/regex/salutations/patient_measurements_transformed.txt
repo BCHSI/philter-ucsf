@@ -1,0 +1,1 @@
+\b([A-Z][a-zA-Z]+\s){1,2}([A-Z]\s)?([A-Z][a-zA-Z]+\s){1,2}(?=is\s\d{1,2}\sinches)\b

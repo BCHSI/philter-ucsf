@@ -1,0 +1,1 @@
+\b(?i)hearing\s(loss|aid(s)?)\b

@@ -1,0 +1,1 @@
+(?<=\bDr\.\s|\bDR\.\s|\bMr\.\s|\bMR\.\s|\bMs\.\s|\bMS\.\s|\bSir\s|\bSIR\s|\bMrs\s|\bMRS\s)(([A-Z](\s|\.\s))?[A-Z]\'?[A-Z]?[\-aA-zZ]+(\s[A-Z](\.)?)?(\s[A-Z]\'?[A-Z]?[\-aA-zZ]+)*)\b

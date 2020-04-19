@@ -1,0 +1,1 @@
+\b(?!QTY|qty|RF|rf|RFL|rfl|Rf)[a-zA-Z]{3}(\:)?\d{3}\b

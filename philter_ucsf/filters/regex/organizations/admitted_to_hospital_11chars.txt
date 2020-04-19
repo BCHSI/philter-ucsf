@@ -1,0 +1,1 @@
+\b(?<=admitted to\s|admitted at\s|transfer to\s|referred to\s)[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?\b

@@ -1,0 +1,1 @@
+((?i)((?<=ordering\smd:\s)|(?<=referring\smd:\s)|(?<=reviewing\smd:\s)|(?<=radiologist:\s)|(?<=reviewed\sby:\s)|(?<=created\sby:\s)|(?<=requested\sby:\s)|(?<=appointment\swith\s)))(([A-Z][a-zA-Z]+\,(\s)?[A-Z](\.)?(\/\s[A-Z][a-zA-Z]+\,(\s)?[A-Z](\.)?)?)\b|(([A-Z]\.\s)?[A-Z][a-zA-Z]+(\-[a-zA-Z]+)?(\,)?([ ]{1,2})?[A-Z][a-zA-Z]+(\-[A-Z][a-zA-Z]+)?([ ]{1,2}[A-Z])?)\b((?i)\,\sjr\.)?)

@@ -1,0 +1,1 @@
+\b((http(s)?:\/\/)?(www\.)?[^\s]+\.(com|org|gov|edu|net))(\/[^\s\\]+)?\b

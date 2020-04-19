@@ -1,0 +1,1 @@
+\b(?i)1\/2([ ]{1,2})(tab|tablet|tablet\(s\))\b

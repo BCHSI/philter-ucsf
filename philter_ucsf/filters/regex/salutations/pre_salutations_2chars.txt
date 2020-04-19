@@ -1,0 +1,1 @@
+((?<=\bDr\s|\bDR\s|\bMr\s|\bMR\s|\bMs\s|\bMS\s)|(?<=\bMD:\s))(([A-Z](\s|\.\s))?[A-Z]\'?[A-Z]?[\-aA-zZ]+(\,)?((\s)?[A-Z]\'?[A-Z]?[\-aA-zZ]+){1,2}(\s[A-Z](\.)?)?)\b

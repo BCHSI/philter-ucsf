@@ -1,0 +1,1 @@
+\b((in|IN|In|to|TO|To|the|THE|The|local|LOCAL|Local|from|FROM|From)\s(ED|ER)|(ED|ER)\svisit)\b(?!\-)

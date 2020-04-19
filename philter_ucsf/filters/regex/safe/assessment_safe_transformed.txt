@@ -1,0 +1,1 @@
+\b(?i)(follow\-up|normal)\sassessment\b

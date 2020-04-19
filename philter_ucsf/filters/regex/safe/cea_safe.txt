@@ -1,0 +1,1 @@
+\b(L|R|Left|Right|l|r|left|right)\sCEA\b

@@ -1,0 +1,1 @@
+\b(?i)(?<!capsule dr\s)(?<!tablet dr\s)(?<=\bdr\s)([A-Z](\s|\.\s))?[A-Z]\'?[A-Z]?[\-aA-zZ]+\b

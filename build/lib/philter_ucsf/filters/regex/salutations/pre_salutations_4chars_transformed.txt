@@ -1,0 +1,1 @@
+(?<=Mrs\.\s|MRS\.\s|Miss\s|MISS\s|Dear\s|DEAR\s|\bDr\.\s\s|\bDR\.\s\s|\bMr\.\s\s|\bMR\.\s\s|\bMs\.\s\s|\bMS\.\s\s|\bSir\s\s|\bSIR\s\s|\bMrs\s\s|\bMRS\s\s)(?!Dr\.)(([A-Z](\s|\.\s))?[A-Z]\'?[A-Z]?[\-aA-zZ]+(\s[A-Z]{1,2})?(\s[A-Z]\'?[A-Z]?[\-aA-zZ]+)*)

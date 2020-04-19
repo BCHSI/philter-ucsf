@@ -1,0 +1,1 @@
+\b(?<=(?i)activation code: )[a-zA-Z0-9]+\-[a-zA-Z0-9]+\-[a-zA-Z0-9]+\b

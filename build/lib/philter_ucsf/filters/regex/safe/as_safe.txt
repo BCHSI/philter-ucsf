@@ -1,0 +1,1 @@
+\b(as\s(well as|directed|needed)|(such)\sas)\b

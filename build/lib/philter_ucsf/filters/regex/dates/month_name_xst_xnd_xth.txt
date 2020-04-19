@@ -1,0 +1,1 @@
+\b("""+month_name+r""")\s("""+day_numbering+r""")\b

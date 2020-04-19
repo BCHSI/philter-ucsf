@@ -1,0 +1,1 @@
+\b(?i)((is|more|otherwise|very|not|sexually)\sactive)|(active\s(bleeding|problem|issue(s)?|disease|infection|on))\b

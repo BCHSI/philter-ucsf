@@ -1,0 +1,1 @@
+\b(?i)(ordering|referring|reviewing|assisting)\smd\b

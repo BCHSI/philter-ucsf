@@ -1,0 +1,1 @@
+\b(?i)(a|per|the|same|next|each|every|by)\sday\b

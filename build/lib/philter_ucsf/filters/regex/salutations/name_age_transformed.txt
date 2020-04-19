@@ -1,0 +1,1 @@
+\b(?i)(?!\bpatient\b)(?!\bhe\b)(?!\bshe\b)([A-Z][a-zA-Z]+\-)?([A-Z][a-zA-Z]+(\s)?){1,2}([A-Z](\.)?\s)?(Van\s|De\s)?([A-Z][a-zA-Z]+(\s)?){1,2}((?=(?i)\sis\sa\s\d{1,3}\sy\.o)|(?=(?i)\sis\sa\s\d{1,3}\sy\.o)|(?=(?i)\sis\sa\s\d{1,3}\syear\-old)|(?=(?i)\,\sa\s\d{1,3}\syear[\s\-]old))\b

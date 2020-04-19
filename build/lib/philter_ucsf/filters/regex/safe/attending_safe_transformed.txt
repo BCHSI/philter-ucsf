@@ -1,0 +1,1 @@
+\b(?i)attending\s([a-z]+ologist(\was)?|physician(\swas)?|performed(\sthe)?)\b

@@ -1,0 +1,1 @@
+\b(?i)(lab\sresults|stat\slab)\b

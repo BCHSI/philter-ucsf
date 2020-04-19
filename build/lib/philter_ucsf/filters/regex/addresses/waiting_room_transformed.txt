@@ -1,0 +1,1 @@
+\b(?i)waiting room [a-zA-Z0-9]+\b

@@ -1,0 +1,4 @@
+key|note_word|phi_tag|pos_tag|context|filename|include_exclude|exclude_filters|include_filters
+uniq0|SILVER|HOSPITAL|NNP|20                       SILVER RIDGE EMERGENCY DEPT VIS|111-01.txt|include|['filters/regex/addresses/hospital2.txt']|['filters/whitelists/whitelist_plus_fps-3_cleaned.json']
+uniq1|church|DOCTOR|NN|rt P. Perez, M.D.    GPP/church/olinger      |110-02.txt|include|[]|['filters/whitelists/whitelist_plus_fps-3_cleaned.json']
+uniq2|holmes|DOCTOR|VBZ|ian G. Tavares, M.D. XGT:holmes   DD: 04/07/69 DT: 04/15|110-01.txt|include|[]|['filters/whitelists/whitelist_plus_fps-3_cleaned.json']

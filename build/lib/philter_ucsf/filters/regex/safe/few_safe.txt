@@ -1,0 +1,1 @@
+\b(?i)few\s(seconds|minutes|hours|days|weeks|months|years)\b

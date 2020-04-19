@@ -1,0 +1,1 @@
+\b(?i)(?<=sent\snote\sto\s)[A-Z][a-zA-Z]+(\sat\s[A-Z][a-zA-Z]+)?\b

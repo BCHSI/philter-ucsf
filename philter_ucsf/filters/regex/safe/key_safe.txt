@@ -1,0 +1,1 @@
+\b(?i)key\s(portion(s)?|elements(s)?|part(s)?)\b

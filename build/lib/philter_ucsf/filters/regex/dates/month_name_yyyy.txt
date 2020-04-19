@@ -1,0 +1,1 @@
+\b(("""+month_name+r""")|(F|f)all|(A|a)utumn|(S|s)pring|(W|w)inter|(S|s)ummer)(\-|\/|\:|\s|\,\s|\s\,|\.\s)\d{4}\b

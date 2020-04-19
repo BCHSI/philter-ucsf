@@ -1,0 +1,1 @@
+\b(?<=admitted from\s|department at\s)[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?\b

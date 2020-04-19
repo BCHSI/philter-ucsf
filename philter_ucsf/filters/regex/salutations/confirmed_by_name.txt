@@ -1,0 +1,1 @@
+\b((?<=(?i)confirmed\sby\s)|(?<=(?i)called\sby\s)|(?<=(?i)signed\sby\:\s)|(?<=(?i)printed\sby\s)|(?<=(?i)copied\sby\s)|(?<=(?i)performed\sby:\s))[A-Z][a-zA-Z]+(\s[A-Z]{1,2}(\.)?)?(\,)?(\s)?[A-Z][a-zA-Z]+(\s[A-Z]{1,2}(\.)?)?\b(\s\(\d+\))?

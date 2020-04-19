@@ -1,0 +1,1 @@
+\b(?i)at\s\d+\s(degrees|min(s)?|day(s)?|week(s)?|month(s)?|year(s)?|atm|o\'clock|watts|psi)\b

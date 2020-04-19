@@ -1,0 +1,83 @@
+{
+    "total_false_positives": 36,
+    "total_false_negatives": 3,
+    "total_true_positives": 93,
+    "total_true_negatives": 1702,
+    "false_positives": [],
+    "true_positives": [],
+    "false_negatives": [],
+    "true_negatives": [],
+    "summary_by_file": {
+        "./data/i2b2_results/111-01.txt": {
+            "false_positives": [
+                "This",
+                "on"
+            ],
+            "false_negatives": [
+                "SILVER"
+            ],
+            "num_false_negatives": 1
+        },
+        "./data/i2b2_results/110-04.txt": {
+            "false_positives": [
+                "Sternal",
+                "crunching",
+                "TUNNEL",
+                "7.5",
+                "750",
+                "Mailing",
+                "thicker",
+                "wiht",
+                "S4.",
+                "Abdomen",
+                "Soft",
+                "ND",
+                "IVCD",
+                "narrower.",
+                "Sternal"
+            ],
+            "false_negatives": [],
+            "num_false_negatives": 0
+        },
+        "./data/i2b2_results/110-03.txt": {
+            "false_positives": [
+                "SDU",
+                "JAR",
+                "DOA",
+                "PCP",
+                "2",
+                "2",
+                "Smokes",
+                "paresthesias.",
+                "EX",
+                "escalating",
+                "inferiolateral",
+                "inferiolateral",
+                "Pump",
+                "DM",
+                "RISS",
+                "Prophy",
+                "EHMS"
+            ],
+            "false_negatives": [],
+            "num_false_negatives": 0
+        },
+        "./data/i2b2_results/110-02.txt": {
+            "false_positives": [],
+            "false_negatives": [
+                "church"
+            ],
+            "num_false_negatives": 1
+        },
+        "./data/i2b2_results/110-01.txt": {
+            "false_positives": [
+                "New",
+                "XGT"
+            ],
+            "false_negatives": [
+                "holmes"
+            ],
+            "num_false_negatives": 1
+        }
+    }
+}

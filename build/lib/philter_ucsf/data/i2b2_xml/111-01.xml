@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf8'?>
+<deIdi2b2>
+<TEXT>
+
+
+Record date: 2083-07-20
+
+                     SILVER RIDGE EMERGENCY DEPT VISIT
+
+ 
+
+OROZCO,KYLE   560-40-78-5                     VISIT DATE: 07/20/83
+
+PRESENTING COMPLAINT:  Groin abscess. 
+
+HISTORY OF PRESENTING COMPLAINT:  This is a 58 year-old male who 
+
+had a renal catheterization via the right groin for renal artery 
+
+stenosis on 8-09-83, who now comes in with progressive redness, 
+
+swelling and some drainage over the last two days.  Some low grade 
+
+fever, no chills, no rigors, no cough, no chest pain. 
+
+PAST MEDICAL HISTORY:  Angioplasty of his renal artery, insulin 
+
+dependent diabetes mellitus, hypertension. 
+
+MEDICATIONS:  Zestril, Zocor, hydrochlorothiazide, insulin. 
+
+ALLERGIES:  No known drug allergies. 
+
+PHYSICAL EXAMINATION:  This is a well-nourished, well-developed 
+
+male.  SKIN:  Warm and dry without rash or diaphoresis.  HEENT: 
+
+Normocephalic, atraumatic, pupils are equal, round and reactive to 
+
+light.  NECK:  Supple, full range of motion.  LUNGS:  Clear. 
+
+HEART:  Regular rate and rhythm.  ABDOMEN:  Soft and nontender. 
+
+The right groin has a purulent abscess which is extremely tender. 
+
+It is not pulsatile.  There is purulent drainage from it.  There is 
+
+some surrounding erythema that extends on to the testicles.  The 
+
+testicles are nontender. 
+
+CONSULTATIONS (including PCP):  I have discussed the case with the 
+
+primary care physician. 
+
+FINAL DIAGNOSIS:  Groin abscess. 
+
+DISPOSITION (including condition upon discharge):  The patient is 
+
+admitted to the operating room in stable condition. 
+
+___________________________________                    XW277/90683 
+
+FILBERT BRIGHT, M.D.    FB59                     D:07/20/83 
+
+                                                       T:07/20/83 
+
+Dictated by:  FILBERT BRIGHT, M.D.    FB59 
+
+ ******** Not reviewed by Attending Physician ********
+
+
+
+
+
+</TEXT>
+<TAGS>
+<DATE TYPE="DATE" comment="" end="26" id="P0" start="16" text="2083-07-20" />
+<LOCATION TYPE="HOSPITAL" comment="" end="61" id="P1" start="49" text="SILVER RIDGE" />
+<NAME TYPE="PATIENT" comment="" end="98" id="P2" start="87" text="OROZCO,KYLE" />
+<ID TYPE="MEDICALRECORD" comment="" end="112" id="P3" start="101" text="560-40-78-5" />
+<DATE TYPE="DATE" comment="" end="153" id="P4" start="145" text="07/20/83" />
+<DATE TYPE="DATE" comment="" end="348" id="P6" start="341" text="8-09-83" />
+<ID TYPE="IDNUM" comment="" end="1612" id="P7" start="1601" text="XW277/90683" />
+<NAME TYPE="DOCTOR" comment="" end="1629" id="P8" start="1615" text="FILBERT BRIGHT" />
+<NAME TYPE="USERNAME" comment="" end="1643" id="P9" start="1639" text="FB59" />
+<DATE TYPE="DATE" comment="" end="1674" id="P10" start="1666" text="07/20/83" />
+<DATE TYPE="DATE" comment="" end="1742" id="P11" start="1734" text="07/20/83" />
+<NAME TYPE="DOCTOR" comment="" end="1773" id="P12" start="1759" text="FILBERT BRIGHT" />
+<NAME TYPE="USERNAME" comment="" end="1787" id="P13" start="1783" text="FB59" />
+</TAGS>
+</deIdi2b2>

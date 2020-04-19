@@ -1,0 +1,1 @@
+\b(?i)(\d+(th|nd|st)\s{1,4}(floor|fl)|floor\s[A-Z0-9]+)(\,)?\s((box|suite)\s[a-zA-Z0-9]+|[A-Z]\-[0-9]+)\b

@@ -1,0 +1,395 @@
+{
+    "111-01.xml": {
+        "text": "\n\n\nRecord date: 2083-07-20\n\n                     SILVER RIDGE EMERGENCY DEPT VISIT\n\n \n\nOROZCO,KYLE   560-40-78-5                     VISIT DATE: 07/20/83\n\nPRESENTING COMPLAINT:  Groin abscess. \n\nHISTORY OF PRESENTING COMPLAINT:  This is a 58 year-old male who \n\nhad a renal catheterization via the right groin for renal artery \n\nstenosis on 8-09-83, who now comes in with progressive redness, \n\nswelling and some drainage over the last two days.  Some low grade \n\nfever, no chills, no rigors, no cough, no chest pain. \n\nPAST MEDICAL HISTORY:  Angioplasty of his renal artery, insulin \n\ndependent diabetes mellitus, hypertension. \n\nMEDICATIONS:  Zestril, Zocor, hydrochlorothiazide, insulin. \n\nALLERGIES:  No known drug allergies. \n\nPHYSICAL EXAMINATION:  This is a well-nourished, well-developed \n\nmale.  SKIN:  Warm and dry without rash or diaphoresis.  HEENT: \n\nNormocephalic, atraumatic, pupils are equal, round and reactive to \n\nlight.  NECK:  Supple, full range of motion.  LUNGS:  Clear. \n\nHEART:  Regular rate and rhythm.  ABDOMEN:  Soft and nontender. \n\nThe right groin has a purulent abscess which is extremely tender. \n\nIt is not pulsatile.  There is purulent drainage from it.  There is \n\nsome surrounding erythema that extends on to the testicles.  The \n\ntesticles are nontender. \n\nCONSULTATIONS (including PCP):  I have discussed the case with the \n\nprimary care physician. \n\nFINAL DIAGNOSIS:  Groin abscess. \n\nDISPOSITION (including condition upon discharge):  The patient is \n\nadmitted to the operating room in stable condition. \n\n___________________________________                    XW277/90683 \n\nFILBERT BRIGHT, M.D.    FB59                     D:07/20/83 \n\n                                                       T:07/20/83 \n\nDictated by:  FILBERT BRIGHT, M.D.    FB59 \n\n ******** Not reviewed by Attending Physician ********\n\n\n\n\n\n",
+        "phi": [
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "26",
+                "id": "P0",
+                "start": "16",
+                "text": "2083-07-20"
+            },
+            {
+                "TYPE": "HOSPITAL",
+                "comment": "",
+                "end": "61",
+                "id": "P1",
+                "start": "49",
+                "text": "SILVER RIDGE"
+            },
+            {
+                "TYPE": "PATIENT",
+                "comment": "",
+                "end": "98",
+                "id": "P2",
+                "start": "87",
+                "text": "OROZCO,KYLE"
+            },
+            {
+                "TYPE": "MEDICALRECORD",
+                "comment": "",
+                "end": "112",
+                "id": "P3",
+                "start": "101",
+                "text": "560-40-78-5"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "153",
+                "id": "P4",
+                "start": "145",
+                "text": "07/20/83"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "348",
+                "id": "P6",
+                "start": "341",
+                "text": "8-09-83"
+            },
+            {
+                "TYPE": "IDNUM",
+                "comment": "",
+                "end": "1612",
+                "id": "P7",
+                "start": "1601",
+                "text": "XW277/90683"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "1629",
+                "id": "P8",
+                "start": "1615",
+                "text": "FILBERT BRIGHT"
+            },
+            {
+                "TYPE": "USERNAME",
+                "comment": "",
+                "end": "1643",
+                "id": "P9",
+                "start": "1639",
+                "text": "FB59"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "1674",
+                "id": "P10",
+                "start": "1666",
+                "text": "07/20/83"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "1742",
+                "id": "P11",
+                "start": "1734",
+                "text": "07/20/83"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "1773",
+                "id": "P12",
+                "start": "1759",
+                "text": "FILBERT BRIGHT"
+            },
+            {
+                "TYPE": "USERNAME",
+                "comment": "",
+                "end": "1787",
+                "id": "P13",
+                "start": "1783",
+                "text": "FB59"
+            }
+        ]
+    },
+    "110-04.xml": {
+        "text": "\n\n\nRecord date: 2080-10-01\n\n\n\nReason for Visit\n\nSternal pain.\n\n\n\nHistory of Present Illness\n\n71 yo M with CAD, s/p CABG x 4 in 3/80. He presents with pain over the lower part of his chest since Monday-- came on when he was in bed. The pain is located in a specific spot over his breast bone, and is present all the time, worse with coughing, sneezing, or sudden deep breath. No change with exertion-- did his usual exercises (stretching, leg lifts, crunching) yesterday without a problem. No variation with food. No change with position (e.g., leaning forward). Denies productive cough, fever, chills, nausea, diaphoresis, palpitations. No radiation to the jaw or arm. The pain does not remind him of his sx prior to CABG (which he says was exertional SOB), but does feel like his incisional pain after the surgery (which eventually went away completely).\n\n \n\nROS as above, otherwise negative in detail. He says his pain is currently gone, and he feels fine lying back in the exam room.\n\n\n\n\n\nProblems\n\n      Coronary artery disease    : s/p CABG x 4 in 3/80\n\n      SERONEGATIVE RA\n\n      HYPERTENSION\n\n      ?CARPAL TUNNEL SYNDROME\n\n      ?RT CAROTID DISEASE\n\n      obesity\n\n      hyperlipidemia\n\n      Diabetes mellitus type 2\n\n\n\nMedications\n\n      AMIODARONE   200 MG (200MG TABLET take 1) PO QD \n\n      Aspirin (ACETYLSALICYLIC Acid)   325MG TABLET  PO QD x 30 days\n\n      ATENOLOL   50 MG (50MG TABLET take 1) PO QD \n\n      Enalapril Maleate   10 MG (10MG TABLET take 1) PO QD x 30 days\n\n      Hctz (HYDROCHLOROTHIAZIDE)   25MG TABLET take 1 Tablet(s) PO QD \n\n      Lipitor (ATORVASTATIN)   80 MG (80MG TABLET take 1) PO QHS \n\n      METFORMIN   850 MG (850MG TABLET take 1) PO BID \n\n      Viagra (SILDENAFIL)   100MG TABLET take 0.5 Tablet(s) PO x1 \n\n      Vicodin Es 7.5/750 (HYDROCODONE 7.5mg + Apap 750mg)   1 TAB PO BID PRN  , Mailing hard copy to you.\n\n      Xanax (ALPRAZOLAM)   0.5MG TABLET take 1 Tablet(s) PO BID \n\n\n\nAllergies\n\n      NKA\n\n\n\nVital Signs\n\n      PULSE   66 \n\n      TEMPERATURE   98.7 F\n\n      O2 SAT   97 \n\n      BLOOD PRESSURE   135/60 \n\nRight arm.\n\n      BLOOD PRESSURE   132/60 \n\nL arm.\n\n\n\nPhysical Exam\n\n      General Appearance\n\nAlert, no acute distress, comfortable lying flat on exam table.\n\n      HEENT\n\nPERRL.\n\nMoist mucous membranes.\n\n\n\n      Neck\n\nNo visible JVD.\n\nNo cervical nodes.\n\n\n\n      Chest\n\nLungs clear, good air movement, no crackles, wheezes. No focal rhonchi. No pleural rub.\n\n+ focal tenderness approx 2-3 cm above the xiphoid-- subcutaneous tissue feels a little thicker here, but no fluctuance, erythema, warmth. No sternal movement wiht palpation. No palpable sternal wire.\n\n\n\n      Cor/Cardiac\n\nRRR, + systolic murmur, no rub. ?S4.\n\n      Abdomen\n\nSoft, ND, NT. + bowel sounds.\n\n      Extremity\n\nWarm. No edema.\n\n\n\nLab Test\n\nECG (today): sinus at 60 bpm, nl axis. IVCD (toward RBBB, but does not meet criteria); inverted Ts in II, III, AVF. Compared with 8/79-- the QRS complex is slightly narrower.\n\n\n\nImpression\n\nSternal pain-- non-exertional, reproducible by palpation, and not accompanied by ECG changes-- in pt who is s/p CABG seven months ago. Sx are different from his original anginal pain-- and I suspect he has some sort of focal inflammation / contusion over the lower part of the sternotomy site. No sign, currently, of local or systemic infection. Doubt pneumonia (no cough or fever, lungs clear) or GI cause. Pericarditis a possibility (he had post-op pericarditis after his CABG), but no signs on ECG, and the pain is not positional.\n\n \n\nDiscussed the case with the pt's cardiologist, Dr. Xavier Rush-- and we came up with the following plan:\n\n\n\n\n\nPlan\n\n- will send CK/MB/Tn x 1-- although cards agrees that likelihood that this is cardiac seems low\n\n- check CXR\n\n- send ESR, CBC/Diff\n\n- OK for pt to go home after labs drawn and CXR done\n\n- will contact Dr. Thorne's service (cardiac surgery) and Dr. Perez (PCP) to make them aware\n\n- instructed pt to go to the ED immediately for increased pain, SOB, fever, or swelling/redness over the lower sternum\n\n \n\n \n\n\n\n______________________________\n\nOwen M Gallagher, M.D.\n\n\n\n",
+        "phi": [
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "26",
+                "id": "P0",
+                "start": "16",
+                "text": "2080-10-01"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "131",
+                "id": "P2",
+                "start": "127",
+                "text": "3/80"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "1057",
+                "id": "P4",
+                "start": "1053",
+                "text": "3/80"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "2914",
+                "id": "P5",
+                "start": "2910",
+                "text": "8/79"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "3570",
+                "id": "P6",
+                "start": "3559",
+                "text": "Xavier Rush"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "3835",
+                "id": "P7",
+                "start": "3829",
+                "text": "Thorne"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "3877",
+                "id": "P8",
+                "start": "3872",
+                "text": "Perez"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "4080",
+                "id": "P9",
+                "start": "4064",
+                "text": "Owen M Gallagher"
+            }
+        ]
+    },
+    "110-02.xml": {
+        "text": "\n\n\nRecord date: 2075-01-07\n\n\n\n\n\nNAME:    Villegas, Yosef  \n\nMRN:      8249813\n\n\n\nS:   Here for follow up of his colonic polyps.  He wants to know the results from\n\n     them.  He is not taking hydrochlorothiazide and is curious about his blood\n\n     pressure.  He said he has cut his alcohol back to 6 pack once a week.  He\n\n     has cut back his cigarettes to one time per week.  He does say he has had\n\n     some problems with his memory recently, although no other manifestations\n\n     of dementia and no difficulty with ADLs.  He says he uses Viagra\n\n     occasionally and it works for him.\n\n\n\nO:   Well-appearing male. Blood pressure 142/74.  Chest clear.  COR: No\n\n     murmur.\n\n\n\nA:   (1)  Alcohol excess discussed.  I told him to cut it out entirely.\n\n     (2)  Cigarette smoking.  Discussed.\n\n     (3)  Hypertension. Under good control.\n\n     (4)  Elevated lipids.  Will check FLP.\n\n     (5)  Worried about dementia. Will check B12, TSH, RPR for now.\n\n     (6)  Status-post knee replacement.  Gets occasional Vicodin from his\n\n          orthopedist.  Says he wanted 8 Percocet for the next month or two\n\n          that he will take on rare occasions when his pain is more severe, and I\n\n          did give him 8 Percocet.\n\n\n\nP:   Follow up with Dr. Hobbs in 3 months.\n\n\n\n  \n\nGilbert P. Perez, M.D.\n\n\n\nGPP/church/olinger\n\n\n\n\n\n",
+        "phi": [
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "26",
+                "id": "P0",
+                "start": "16",
+                "text": "2075-01-07"
+            },
+            {
+                "TYPE": "PATIENT",
+                "comment": "",
+                "end": "56",
+                "id": "P1",
+                "start": "41",
+                "text": "Villegas, Yosef"
+            },
+            {
+                "TYPE": "MEDICALRECORD",
+                "comment": "",
+                "end": "77",
+                "id": "P2",
+                "start": "70",
+                "text": "8249813"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "1263",
+                "id": "P3",
+                "start": "1258",
+                "text": "Hobbs"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "1300",
+                "id": "P4",
+                "start": "1284",
+                "text": "Gilbert P. Perez"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "1320",
+                "id": "P6",
+                "start": "1314",
+                "text": "church"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "1328",
+                "id": "P7",
+                "start": "1321",
+                "text": "olinger"
+            }
+        ]
+    },
+    "110-03.xml": {
+        "text": "\n\n\nRecord date: 2080-02-18\n\n \n\nSDU JAR Admission Note\n\nName: \t Yosef Villegas\nMR:\t8249813\nDOA:  \t2/17/80\nPCP:  Gilbert Perez\nAttending: YBARRA\nCODE: FULL\n\nHPI:  70 yo M with NIDDM admitted for cath after positive MIBI. Pt has had increasing CP and SOB on exertion for past two months, seen at PCP on 2/03 with EKG showing RBBB. Pt was scheduled for stress MIBI today to eval for cardiac ischemia. MIBI was reportedly stopped 2/2 to chest pain, though pt denies having pain during procedure. MIBI was read as positive for moderate to severe inferior ischemia and pt was referred to the ED for admission and catheterization.\n\n\nPMH: \nSeronegative Rheumatoid Arthritis \nHTN\nRight Carotid Artery Dz \nObesity \nHyperlipidemia \nDiabetes mellitus type 2\n\nHome Medications: \n\nAcetylsalicylic Acid (Aspirin)  PO 81 MG QD\nXanax (Alprazolam)  PO  BID\nAtenolol  PO 50 MG QD\nEnalapril Maleate  PO 10 MG QD\nHctz (Hydrochlorothiazide)  PO  QD\nMetformin  PO 850 MG BID\n\n\nAllergies: NKDA\n\n\nSocial History:  Smokes 2 packs per month, drinks 1 case of beer per month\n\n\nExam:  \t\nVS: T: 98.1  HR: 59  BP: 158/72  RR: 20  Sat:  97% RA\nGeneral: Obese gentleman lying comfortably in bed\nHEENT: Pupils equal, round, and reactive to light, extra ocular muscles intact, pharynx clear\nPulmonary: Clear to auscultation bilaterally, no wheezes, rubs or rales \nCardiac:  Irregular, no m/r/g, no jugular venous distension\nAbdomen: soft, nt, nd, normal bowl sounds\nExtr: Positive pedal pulses bilaterally, no cyanosis, clubbing, or edema  \nNeuro: Alert and oriented to person place and time. No focal weakness or paresthesias.\n\n\nDATA: \n\nNA        \t138       \t          \t          \t          \nK         \t3.9      \t          \t          \t          \nCL        \t99(L)     \t\t          \t          \t          \nCO2       \t27.8      \t\t          \t          \t          \nBUN       \t16        \t          \t          \t          \nCRE       \t0.9       \t\t          \t          \t          \nGLU       \t95                  \t          \t           \n\nWBC       \t9.9       \t          \t          \t          \t          \nRBC       \t5.14      \t          \t          \t          \t          \nHGB       \t15.7      \t          \t          \t          \t          \nHCT       \t44.5      \t          \t          \t          \t          \nMCV       \t87        \t          \t          \t          \t          \nMCH       \t30.6      \t          \t          \t          \t          \nMCHC      35.4      \t          \t          \t          \t          \nPLT       \t243       \t          \t          \t          \t          \nRDW       \t13.4      \n\nPT        \t12.2      \t          \t          \t          \t          \nPT-INR    \t1.1       \t          \t          \t          \t          \nPTT       \t24.8      \t          \t          \t          \t          \n\nMIBI: The patient has reduced exercise capacity (5 METS).  The ECG is positive for ischemia.  LV contractile function is normal. Findings are consistent with moderate to severe ischemia in the inferior and inferolateral ischemia at low work load (1.5 min EX). The LVEF is 52%.\n\nEKG: Sinus arrhythmia with RBBB\n\nASSESSMENT AND PLAN: \n\n70 yo M with multiple cardiac risk factors and 2 mo escalating angina sx presents with MIBI positive for interior and inferiolateral ischemia.\n\nCV:\n\tIschemia: Hx angina, MIBI positive for inferior and inferiolateral ischemia. \nCycle enzymes, plan for cath 2/18 to eval for reversible coronary defect. ASA.\n\tPump: EF estimated at 52%\nCont enalapril, hctz\nRhythm: Sinus arrythmia and RBBB\nHold atenolol for bradycardia\nDM\nRISS\nProphy:\nDVT prophylaxis: ambulatory\nGI prophylaxis: Zantac\n\n\n_______________________\nMike Ivan, MD, EHMS pager 84710\n\n\n\n\n",
+        "phi": [
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "26",
+                "id": "P0",
+                "start": "16",
+                "text": "2080-02-18"
+            },
+            {
+                "TYPE": "PATIENT",
+                "comment": "",
+                "end": "77",
+                "id": "P1",
+                "start": "63",
+                "text": "Yosef Villegas"
+            },
+            {
+                "TYPE": "MEDICALRECORD",
+                "comment": "",
+                "end": "89",
+                "id": "P2",
+                "start": "82",
+                "text": "8249813"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "104",
+                "id": "P3",
+                "start": "97",
+                "text": "2/17/80"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "124",
+                "id": "P4",
+                "start": "111",
+                "text": "Gilbert Perez"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "142",
+                "id": "P5",
+                "start": "136",
+                "text": "YBARRA"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "304",
+                "id": "P7",
+                "start": "300",
+                "text": "2/03"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "3333",
+                "id": "P9",
+                "start": "3329",
+                "text": "2/18"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "3592",
+                "id": "P10",
+                "start": "3583",
+                "text": "Mike Ivan"
+            },
+            {
+                "TYPE": "PHONE",
+                "comment": "",
+                "end": "3614",
+                "id": "P12",
+                "start": "3609",
+                "text": "84710"
+            }
+        ]
+    },
+    "110-01.xml": {
+        "text": "\n\n\nRecord date: 2069-04-07\n\n \n \n \nMr. Villegas is seen today.  I have not seen him since November. \nAbout three weeks ago he stopped his Prednisone on his own because\nhe was gaining weight.  He does feel that his shoulders are\ndefinitely improved.  It is unclear what he is actually taking, but\nI think based on the color of his pills and the timing of the\nmedication that he continues taking his Atenolol for hypertension\nand 1 Hydroxychloroquine tablet.  He is concerned because of the\nrelatively recent onset of difficulties turning his head to the\nright.  When he does this, he will note that he feels as though he\nis going to pass out although this has not actually happened.  This\nonly occurs when he turns to the right and not to the left.  He has\nno visual changes otherwise and denies any headache or other\ncranial complaints.  \n \nOn examination today, BP 120/80.  He has no bruits over the\ncarotid.  He has no tenderness in this region either.  He has good\nperipheral pulses at the arms.  His joint examination is much\nimproved with better ROM of the shoulders and no peripheral joint\nsynovitis.  \n \nClinical Impression:\n \n#1:  Inflammatory arthritis - possibly RA - with response noted to\nHydroxychloroquine along with Prednisone.  He has stopped the\nPrednisone, and I would not restart it yet.  \n \n#2:  New onset of symptoms suspicious for right-sided carotid\ndisease.  Will arrange for carotid ultrasound studies.  Patient\nadvised to call me if he develops any worsening symptoms.  He has\nbeen taking 1 aspirin per day prophylaxis long-term, and I stressed\nthat he continue to do so.  He will follow-up with me shortly after\nthe ultrasound study.\n \n \n \nXzavian G. Tavares, M.D.\nXGT:holmes\n \nDD: 04/07/69\nDT: 04/15/69\nDV: 04/07/69\n ******** Approved but not reviewed by Attending Provider ********\n\n\n\n\n",
+        "phi": [
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "26",
+                "id": "P0",
+                "start": "16",
+                "text": "2069-04-07"
+            },
+            {
+                "TYPE": "PATIENT",
+                "comment": "",
+                "end": "46",
+                "id": "P1",
+                "start": "38",
+                "text": "Villegas"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "97",
+                "id": "P2",
+                "start": "89",
+                "text": "November"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "1684",
+                "id": "P3",
+                "start": "1666",
+                "text": "Xzavian G. Tavares"
+            },
+            {
+                "TYPE": "DOCTOR",
+                "comment": "",
+                "end": "1701",
+                "id": "P5",
+                "start": "1695",
+                "text": "holmes"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "1716",
+                "id": "P6",
+                "start": "1708",
+                "text": "04/07/69"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "1729",
+                "id": "P7",
+                "start": "1721",
+                "text": "04/15/69"
+            },
+            {
+                "TYPE": "DATE",
+                "comment": "",
+                "end": "1742",
+                "id": "P8",
+                "start": "1734",
+                "text": "04/07/69"
+            }
+        ]
+    }
+}

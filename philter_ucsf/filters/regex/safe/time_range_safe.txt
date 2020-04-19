@@ -1,0 +1,1 @@
+(?i)(?<!\/)(?<!age\s)(?<!age:\s)\b(in\s)?\d+((\-|\sto\s)\d+)?\s(second(s)?|minute(s)?|day(s)|week(s)|month(s)|year(s)|times)\b

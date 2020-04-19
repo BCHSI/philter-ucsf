@@ -1,0 +1,1 @@
+\b((?<=\bon\s)|(?<=\bon\s{2})|(?<=\bin\s)|(?<=\bin\s{2})|(?<=\s\@\s)|(?<=\s\@\s{2}))(?!(chest|abdominal|head)\sCT\b)([A-Z]\s{1,4}[A-Z][a-zA-Z]+|[A-Z][a-zA-Z]+\s{1,4}[A-Z][a-zA-Z]+|[A-Z][a-zA-Z]+|("""+day_numbering+r"""))(\:\s{1,4}|\,\s{1,4}|\.\s{1,4}|\s{1,4})(?i)("""+address_indicator+r""")\b(\.)?

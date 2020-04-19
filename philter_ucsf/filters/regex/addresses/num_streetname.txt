@@ -1,0 +1,1 @@
+(?i)(?<!(\/))(?<!(\d{2}\-))(?<!(\stype\s))(?!\d+\s(mg|units|year|years|yrs|qd|bpm|refills|tab|tabs|day|days|cc|ccs|mmhg|po|puff|mm|amp)\s)\b(\d+)\s{1,4}(?!Dear\b)([A-Z]\s{1,4}[A-Z][a-zA-Z]+|[A-Z][a-zA-Z]+\s{1,4}[A-Z][a-zA-Z]+|[A-Z][a-zA-Z]+|[A-Z]|("""+day_numbering+r"""))\s{1,4}((?i)("""+address_indicator+r""")|[A-Z0-9]\slevel)(\.)?(\s#\d+)?(\,\s[a-z]+\sunit)?\b

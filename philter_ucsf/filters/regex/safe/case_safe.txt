@@ -1,0 +1,1 @@
+\b(?i)((the|in|which|on|most|some)\scase(s)?|case\s(manager|summary))\b
