@@ -841,6 +841,7 @@ class Philter:
         contents.append("<?xml version=\"1.0\" ?>\n")
         contents.append("<"+root+">\n")
         contents.append("<TEXT><![CDATA[")
+
         contents.append(tagdata['text'])
         contents.append("]]></TEXT>\n")
         contents.append("<TAGS>\n")
@@ -865,8 +866,8 @@ class Philter:
         # for loop over complement - PHI, create additional tags (UNKNOWN)
         contents.append("</TAGS>\n")
         contents.append("</"+root+">\n")
+        print(contents)
         
-        return "".join(contents)
                 
     def detect_encoding(self, fp):
         if not os.path.exists(fp):
