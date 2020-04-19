@@ -12,7 +12,7 @@ The main philter code will be executed by running:
 python3 -m philter_ucsf [flags, see below]
 ```
 
-However, we strongly suggest that you download the project source code and run all sample commands from the top directory before running the install version of Philter.
+However, we strongly suggest that you download the project source code and run all sample commands below from the home directory before running the install version of Philter.
 
 
 # Running Philter: A Step-by-Step Guide
