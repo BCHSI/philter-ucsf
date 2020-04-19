@@ -63,7 +63,9 @@ Use the following command to run a single job and output files in XML format:
 ```bash
 python3 main.py -i ./data/i2b2_notes/ -o ./data/i2b2_results/ -f ./configs/philter_delta.json --prod=True
 ```
-If you'd like the output files to be in plain text format (with asterisks obscuring PHI), simply add the -outputformat "asterisk" option:
+IMPORTANT NOTE: XML-formatted files do NOT have PHI-reduced text. Instead, they contain the original note text with the PHI tags identified by Philter. 
+
+If you'd like to output ONLY the PHI-reduced text with asterisks obscuring Philter-identified PHI, simply add the -outputformat "asterisk" option:
 ```bash
 python3 main.py -i ./data/i2b2_notes/ -o ./data/i2b2_results/ -f ./configs/philter_delta.json --prod=True --outputformat "asterisk"
 ```
@@ -108,3 +110,5 @@ Note: If this command produces an ElementTree.ParseError, you may need to remove
 ```bash
 python3 main.py -i ./data/i2b2_notes/ -a ./data/i2b2_anno/ -o ./data/i2b2_results/ -x ./data/phi_notes_i2b2.json -f=./configs/philter_delta.json
 ```
+
+By defult, this will output PHI-reduced notes (.txt format) in the specified output directory. If this command is used with the --outputformat i2b2 flag, the evaluation script will not be run and the script will output notes with the original text and the Philter PHI tags (.xml format) in the specified output directory.
