@@ -1,3 +1,19 @@
+# Installing Philter
+
+To install Philter from PyPi, run the following command:
+
+```bash
+pip3 install philter-ucsf-beta
+```
+
+The main philter code will be executed by running:
+
+```bash
+python3 philter-ucsf-beta [flags, see below]
+```
+
+However, we strongly suggest that you download the project source code and run all sample commands from the top directory before running the install version of Philter.
+
 
 # Running Philter: A Step-by-Step Guide
 
