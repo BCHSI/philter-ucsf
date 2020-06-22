@@ -866,7 +866,8 @@ class Philter:
         # for loop over complement - PHI, create additional tags (UNKNOWN)
         contents.append("</TAGS>\n")
         contents.append("</"+root+">\n")
-        print(contents)
+        # print(contents)
+        return ''.join(contents)
         
                 
     def detect_encoding(self, fp):
