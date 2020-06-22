@@ -143,7 +143,7 @@ def main():
 		text,tags_dict,xmlstr = extractXML(input_dir,filename)
 	#print str(tags_dict) + '\n \n'
 
-		for key, value in tags_dict.iteritems():
+		for key, value in tags_dict.items():
 			# Note:  Value can be a list of like phi elements
 			# 		or a dictionary of the metadata about a phi element
 
