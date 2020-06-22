@@ -186,7 +186,7 @@ def main():
 		# here we write back out the updated XML File to a new directory
 		output_file = output_dir+filename
 		with open(output_file, "w") as text_file:
-			text_file.write(xmlstr)
+			text_file.write(xmlstr.decode("utf-8"))
 
 
 
