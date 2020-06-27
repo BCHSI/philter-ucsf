@@ -44,10 +44,7 @@ def main():
     ap.add_argument("-n", "--initials", default=True,
                     help="When initials is true, will include initials PHI in recall/precision calculations",
                     type=lambda x:bool(distutils.util.strtobool(x))) 
-    #ap.add_argument("--stanfordner", default="/usr/local/stanford-ner/",
-    #                help="Path to Stanford NER, the default is /usr/local/stanford-ner/",
-    #                type=str)
-    ap.add_argument("--outputformat", default="asterisk",
+    ap.add_argument("--outputformat", default="i2b2",
                     help="Define format of annotation, allowed values are \"asterisk\", \"i2b2\". Default is \"asterisk\"",
                     type=str)
     ap.add_argument("--ucsfformat", default=False,
@@ -67,8 +64,7 @@ def main():
     if args.prod:
         run_eval = False
         verbose = False
-        # outputformat = "i2b2"
-        # filters = "./configs/philter_alpha.json"
+
         philter_config = {
             "verbose":verbose,
             "run_eval":run_eval,
@@ -95,11 +91,6 @@ def main():
             "coords":args.coords,
             "eval_out":args.eval_output,
             "cachepos":args.cachepos
-            #"stanford_ner_tagger": {
-            #    "classifier":args.stanfordner+"classifiers/english.all.3class.distsim.crf.ser.gz",
-            #    "jar":args.stanfordner+"stanford-ner.jar",
-            #    "download":True,
-            #}
         }
    
     if verbose:

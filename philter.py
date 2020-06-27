@@ -109,7 +109,7 @@ class Philter:
         self.full_exclude_map = {}
 
         #create a memory for the list of known PHI types
-        self.phi_type_list = ['DATE','Patient_Social_Security_Number','Email','Provider_Address_or_Location','Age','Name','OTHER']
+        self.phi_type_list = ['DATE','Patient_Social_Security_Number','Email','Provider_Address_or_Location','Age','Name','OTHER','ID','NAME','LOCATION','CONTACT','AGE']
         
         #create a memory for the corrdinate maps of known PHI types    
         self.phi_type_dict = {}
@@ -866,7 +866,8 @@ class Philter:
         # for loop over complement - PHI, create additional tags (UNKNOWN)
         contents.append("</TAGS>\n")
         contents.append("</"+root+">\n")
-        print(contents)
+        
+        return "".join(contents)
         
                 
     def detect_encoding(self, fp):
