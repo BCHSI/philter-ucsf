@@ -750,7 +750,7 @@ class Philter:
         #     self.data_all_files[filename]["phi"].append({"start":start, "stop":stop, "word":txt[start:stop],"phi_type":phi_type, "filepath":""})
 
 
-    def transform(self):
+    def transform(self, allowed_filetypes=set(["txt", "ano"])):
         """ transform
             turns input files into output PHI files 
             protected health information will be replaced by the replacement character
@@ -781,6 +781,11 @@ class Philter:
             # data = {}
         
             filename = root+f
+
+            if filename.split(".")[-1] not in allowed_filetypes:
+                if self.verbose:
+                    print("Skipping: ", filename)
+                continue  
 
             encoding = self.detect_encoding(filename)
             txt = open(filename,"r", encoding=encoding['encoding']).read()
