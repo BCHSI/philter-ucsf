@@ -1,0 +1,5 @@
+chardet==3.0.4
+nltk==3.5
+numpy==1.19.0
+pandas==1.0.5
+xmltodict==0.12.0
