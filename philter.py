@@ -868,8 +868,7 @@ class Philter:
         contents.append("</"+root+">\n")
         
         return "".join(contents)
-        
-                
+            
     def detect_encoding(self, fp):
         if not os.path.exists(fp):
             raise Exception("Filepath does not exist", fp)

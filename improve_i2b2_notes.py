@@ -143,7 +143,7 @@ def main():
 		text,tags_dict,xmlstr = extractXML(input_dir,filename)
 	#print str(tags_dict) + '\n \n'
 
-		for key, value in tags_dict.iteritems():
+		for key, value in tags_dict.items():
 			# Note:  Value can be a list of like phi elements
 			# 		or a dictionary of the metadata about a phi element
 
@@ -186,7 +186,7 @@ def main():
 		# here we write back out the updated XML File to a new directory
 		output_file = output_dir+filename
 		with open(output_file, "w") as text_file:
-			text_file.write(xmlstr)
+			text_file.write(xmlstr.decode("utf-8"))
 
 
 
