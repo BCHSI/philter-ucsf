@@ -14,6 +14,13 @@ python3 -m philter_ucsf [flags, see below]
 
 However, we strongly suggest that you download the project source code and run all sample commands below from the home directory before running the install version of Philter.
 
+# Installing Requirements
+
+To install the Python requirements, run the following command:
+
+```bash
+pip3 install -r requirements.txt
+```
 
 # Running Philter: A Step-by-Step Guide
 
