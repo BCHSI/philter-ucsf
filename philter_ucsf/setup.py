@@ -19,4 +19,11 @@ setuptools.setup(
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
     ],
+    install_requires=[
+        "chardet~=3.0",
+        "nltk~=3.5",
+        "numpy~=1.19",
+        "pandas~=1.0",
+        "xmltodict~=0.12"
+    ]
 )
