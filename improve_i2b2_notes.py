@@ -23,14 +23,14 @@ def extractXML(directory,filename):
 
 def delete_annotation(xml_file, phi_type, tag_to_delete):
 	#print tag_to_delete
-	remove_line_if = 'text="' + tag_to_delete + '"'
+	remove_line_if = bytes('text="' + tag_to_delete + '"', 'utf-8')
 
-	for line in xml_file.split("\n"):
+	for line in xml_file.split(b"\n"):
 		#print remove_line_if
 		if remove_line_if in line:
-			remove_line = line + "\n"
+			remove_line = line + b"\n"
 			print(remove_line)
-			xml_file = xml_file.replace(remove_line,"")
+			xml_file = xml_file.replace(remove_line,b"")
 
 	return xml_file
 
@@ -39,7 +39,7 @@ def fix_dates(xml_file,text):
 	PHI_type="DATE"
 	date = text
 	if date.isdigit():
-		if len(date) == 4 and (1000<= date<=3000):
+		if len(date) == 4 and (1000 <= int(date) <= 3000):
 			delete_annotation(xml_file, PHI_type, text)
 
 	# remove season
