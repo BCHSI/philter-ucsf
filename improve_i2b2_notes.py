@@ -5,6 +5,7 @@ import xmltodict
 import os
 import pandas as pd
 import re
+import sys
 
 # This script removes PHI tags that are not PHI (according to HIPAA) from i2b2 annotations
 
@@ -21,18 +22,21 @@ def extractXML(directory,filename):
 
 def delete_annotation(xml_file, phi_type, tag_to_delete):
 	
-	remove_line_if = 'text="' + tag_to_delete + '"'
+	if sys.version_info < (3, 0):
+		remove_line_if = bytes('text="' + tag_to_delete + '"')
+	else:
+		remove_line_if = bytes('text="' + tag_to_delete + '"', 'utf-8')
 	
-	for line in xml_file.split("\n"):
+	for line in xml_file.split(b"\n"):
 		if remove_line_if in line:
-			remove_line = line + "\n"
-			xml_file = xml_file.replace(remove_line,"")
+			remove_line = line + b"\n"
+			xml_file = xml_file.replace(remove_line,b"")
 	
 	return xml_file
 
 def fix_dates(xml_file,text):
 
-	# Rempve years in isolation
+	# Remove years in isolation
 	PHI_type="DATE"
 	date = text
 	if date.isdigit():
@@ -40,7 +44,7 @@ def fix_dates(xml_file,text):
 			xml_file = delete_annotation(xml_file, PHI_type, text)
 		elif len(date) == 2:
 			xml_file = delete_annotation(xml_file, PHI_type, text)
-	#if re.findall(r'(\b\d{2,4}(\')?s\b)',date) != []:
+
 	if re.findall(r'(^\d{2,4}(\')?s$|^\'\d{2}$)',date) != []:
 		xml_file = delete_annotation(xml_file, PHI_type, text)
 	
@@ -141,8 +145,12 @@ def main():
 	for filename in os.listdir(input_dir):
 
 		text,tags_dict,xmlstr = extractXML(input_dir,filename)
-
-		for key, value in tags_dict.iteritems():
+		if sys.version_info < (3, 0):
+			all_tags = tags_dict.iteritems()
+		else:
+			all_tags = tags_dict.items()
+		
+		for key, value in all_tags:
 
 			if isinstance(value, list):
 				for final_value in value:
@@ -192,8 +200,14 @@ def main():
 		
 		output_file = output_dir+filename
 		with open(output_file, "w") as text_file:
-			text_file.write(xmlstr)
+			text_file.write(xmlstr.decode("utf-8"))
 
 
 if __name__ == "__main__":
 	main()
+
+
+
+
+
+
