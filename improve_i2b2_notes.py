@@ -1,9 +1,7 @@
-import pandas 
 import xml.etree.ElementTree as ET
 import argparse
 import xmltodict
 import os
-import pandas as pd
 import re
 import sys
 
@@ -136,9 +134,6 @@ def main():
 		os.makedirs(output_dir)
 	except OSError:
 		print("Output directory already exists.")
-
-	cols = ["Document", "PHI_element", "Text", "Type","Comment"]
-	output_df = pd.DataFrame(columns = cols,index=None)
 
 	new_dict = dict()
 
