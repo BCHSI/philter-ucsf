@@ -2192,27 +2192,27 @@ class Philter:
 
         # Write FN and FP results to outfolder
         # Conext
-        with open(self.eval_outpath + "fn_tags_context.txt", "w") as fn_file:
+        with open( os.path.join( self.eval_outpath , "fn_tags_context.txt" ) , "w") as fn_file:
             fn_file.write("key" + "|" + "note_word" + "|" + "phi_tag" + "|" + "pos_tag" + "|" + "context" + "|" + "filename"+ "|" +"include_exclude" + "|" +"exclude_filters" + "|" +"include_filters" +"\n")
             # print(fn_tags_condensed_context)
             for key in fn_tags_condensed_context:
                 current_list = fn_tags_condensed_context[key]
                 fn_file.write(key + "|" + current_list[0] + "|" + current_list[1] + "|" + current_list[2] + "|" + current_list[3] + "|" + current_list[4]+ "|" +current_list[5]+ "|" +str(current_list[6]) + "|" +str(current_list[7]) + "\n")
         
-        with open(self.eval_outpath + "fp_tags_context.txt", "w") as fp_file:
+        with open( os.path.join( self.eval_outpath , "fp_tags_context.txt" ) , "w") as fp_file:
             fp_file.write("key" + "|" + "note_word" + "|" + "pos_tag" + "|" + "context" + "|" + "filename"+ "|" +"exclude_filters" + "|" +"include_filters" +"\n")
             for key in fp_tags_condensed_context:
                 current_list = fp_tags_condensed_context[key]
                 fp_file.write(key + "|" + current_list[0] + "|" + current_list[1]  + "|" +  current_list[2] + "|" + current_list[3]+ "|" + str(current_list[4]) + "|" + str(current_list[5]) +"\n")
 
         # No context
-        with open(self.eval_outpath + "fn_tags.txt", "w") as fn_file:
+        with open( os.path.join( self.eval_outpath , "fn_tags.txt" ) , "w") as fn_file:
             fn_file.write("key" + "|" + "note_word" + "|" + "phi_tag" + "|" + "pos_tag" + "|" + "occurrences"+"|" +"include_exclude" + "|" +"exclude_filters" + "|" +"include_filters" + "\n")
             for key in fn_tags_condensed:
                 current_list = fn_tags_condensed[key]
                 fn_file.write(key + "|" + current_list[0] + "|" + current_list[1] + "|" + current_list[2] + "|" + str(current_list[3])+"|" + current_list[4]+ "|" + str(current_list[5])+ "|" + str(current_list[6])+"\n")
         
-        with open(self.eval_outpath + "fp_tags.txt", "w") as fp_file:
+        with open( os.path.join( self.eval_outpath , "fp_tags.txt" ) , "w") as fp_file:
             fp_file.write("key" + "|" + "note_word" + "|" + "pos_tag" + "|" + "occurrences"+ "|" +"exclude_filters" + "|" +"include_filters" + "\n")
             for key in fp_tags_condensed:
                 current_list = fp_tags_condensed[key]
