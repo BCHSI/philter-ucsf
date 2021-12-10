@@ -113,7 +113,7 @@ def remove_age_under_90(xml_file,text,phi_type,filename):
 def remove_hospitals(xml_file,text,phi_type):
 	
 	# Remove hospital abbreviations
-	if re.findall(r'(^[A-Z]{2,4}$)',text) != []:
+	if re.findall(r'(^[À-ÞA-Z]{2,4}$)',text) != []:
 		xml_file = delete_annotation(xml_file, phi_type, text)
 	
 	return xml_file

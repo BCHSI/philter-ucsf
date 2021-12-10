@@ -106,7 +106,7 @@ def main():
             contents.append(txt[last_marker:start])
             
             #add a * for each letter preserving shape
-            phi_hidden = re.sub(r"[a-zA-Z0-9]", "*", txt[start:stop])
+            phi_hidden = re.sub(r"[À-ÿa-zA-Z0-9]", "*", txt[start:stop])
             contents.append(phi_hidden)
             last_marker = stop
 
