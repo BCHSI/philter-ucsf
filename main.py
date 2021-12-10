@@ -20,10 +20,10 @@ def main():
     ap.add_argument("-o", "--output", default="./data/i2b2_results/",
                     help="Path to the directory to save the PHI-reduced notes in, the default is ./data/i2b2_results/",
                     type=str)
-    ap.add_argument("-f", "--filters", default="./configs/integration_1.json",
+    ap.add_argument("-f", "--filters", default="./configs/philter_delta.json",
                     help="Path to our config file, the default is ./configs/integration_1.json",
                     type=str)
-    ap.add_argument("-x", "--xml", default="./data/phi_notes.json",
+    ap.add_argument("-x", "--xml", default="./data/phi_notes_i2b2.json",
                     help="Path to the json file that contains all xml data",
                     type=str)
     ap.add_argument("-c", "--coords", default="./data/coordinates.json",
@@ -120,8 +120,8 @@ def main():
             phi_matcher=re.compile("\*+"),
             pre_process=r":|\,|\-|\/|_|~", #characters we're going to strip from our notes to analyze against anno
             only_digits=False,
-            pre_process2= r"[^a-zA-Z0-9]",
-            punctuation_matcher=re.compile(r"[^a-zA-Z0-9\*]"))
+            pre_process2= r"[^À-ÿa-zA-Z0-9]",
+            punctuation_matcher=re.compile(r"[^À-ÿa-zA-Z0-9\*]"))
 
 # error analysis
         

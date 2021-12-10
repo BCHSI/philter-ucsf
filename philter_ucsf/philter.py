@@ -2395,7 +2395,7 @@ class Philter:
             for c in phi_word:
                 if re.match("\d+", c):
                     wordlst.append(digit_char)
-                elif re.match("[a-zA-Z]+", c):
+                elif re.match("[À-ÿa-zA-Z]+", c):
                     wordlst.append(string_char)
                 else:
                     wordlst.append(c)
