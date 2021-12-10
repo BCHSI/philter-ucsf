@@ -1,1 +1,1 @@
-\b([A-Z][a-zA-Z]+\s){1,2}([A-Z]\s)?([A-Z][a-zA-Z]+(\s)?){1,2}(?=\/Pathologist|\/Pathology\sResident)
+\b([À-ÞA-Z][À-ÿa-zA-Z]+\s){1,2}([À-ÞA-Z]\s)?([À-ÞA-Z][À-ÿa-zA-Z]+(\s)?){1,2}(?=\/Pathologist|\/Pathology\sResident)

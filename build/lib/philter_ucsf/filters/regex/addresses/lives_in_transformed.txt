@@ -1,1 +1,1 @@
-\b((?<=lives\sin\s|lives\son\s)|(?<=live\sin\s)|(?<=travel\sto\s)|(?<=travels\sto\s)|(?<=vacation\sin\s)|(?<=on\sher\sway\sto\s)|(?<=on\shis\sway\sto\s)|(?<=came\sfrom\s))([a-zA-Z]+\s{1,4}[a-zA-Z]+|[a-zA-Z]+)\b
+\b((?<=lives\sin\s|lives\son\s)|(?<=live\sin\s)|(?<=travel\sto\s)|(?<=travels\sto\s)|(?<=vacation\sin\s)|(?<=on\sher\sway\sto\s)|(?<=on\shis\sway\sto\s)|(?<=came\sfrom\s))([À-ÿa-zA-Z]+\s{1,4}[À-ÿa-zA-Z]+|[À-ÿa-zA-Z]+)\b

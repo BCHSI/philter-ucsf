@@ -1,1 +1,1 @@
-\b(?<=Code\sStatus\:\sFULL\s)[A-Z][a-zA-Z]+(\s[A-Z][a-zA-Z]+){1,2}\b(((?i)(\,)?\sjr\.)?)
+\b(?<=Code\sStatus\:\sFULL\s)[À-ÞA-Z][À-ÿa-zA-Z]+(\s[À-ÞA-Z][À-ÿa-zA-Z]+){1,2}\b(((?i)(\,)?\sjr\.)?)

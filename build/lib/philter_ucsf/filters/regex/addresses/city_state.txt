@@ -1,1 +1,1 @@
-\b(?!(NT\,\sND|MR\,\sLA)\b)(([A-Z][a-zA-Z]+\s{1,4}[A-Z][a-zA-Z]+|[A-Z][a-zA-Z]+)(\,\s{1,4})("""+state_name+r"""))\b
+\b(?!(NT\,\sND|MR\,\sLA)\b)(([À-ÞA-Z][À-ÿa-zA-Z]+\s{1,4}[À-ÞA-Z][À-ÿa-zA-Z]+|[À-ÞA-Z][À-ÿa-zA-Z]+)(\,\s{1,4})("""+state_name+r"""))\b
