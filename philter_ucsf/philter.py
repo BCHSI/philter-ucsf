@@ -165,7 +165,7 @@ class Philter:
     #        self.pos_tags[filename] = nltk.pos_tag(cleaned)
     #    return self.pos_tags[filename]
     
-    def get_clean(self, filename, text, pre_process= r"[^a-zA-Z0-9]"):
+    def get_clean(self, filename, text, pre_process= r"[^À-ÿa-zA-Z0-9]"):
         if filename not in self.cleaned:
             self.cleaned = {}
             # Use pre-process to split sentence by spaces AND symbols, while preserving spaces in the split list
@@ -187,13 +187,13 @@ class Philter:
     #        self.clean_words = {}
     #        self.clean_words[filename] = {}
     #    if word not in self.clean_words[filename]:
-    #        self.clean_words[filename][word] = re.sub(r"[^a-zA-Z0-9]+", "", word.lower().strip())
+    #        self.clean_words[filename][word] = re.sub(r"[^À-ÿa-zA-Z0-9]+", "", word.lower().strip())
     #    return self.clean_words[filename][word]
 
     #def get_clean_word2(self, filename, word):
-    #    return re.sub(r"[^a-zA-Z0-9]+", "", word.lower().strip())
+    #    return re.sub(r"[^À-ÿa-zA-Z0-9]+", "", word.lower().strip())
     #    if word not in self.clean_words:
-    #        self.clean_words[word] = re.sub(r"[^a-zA-Z0-9]+", "", word.lower().strip())
+    #        self.clean_words[word] = re.sub(r"[^À-ÿa-zA-Z0-9]+", "", word.lower().strip())
     #    return self.clean_words[word]
     
     def init_patterns(self):
@@ -342,7 +342,7 @@ class Philter:
 
         return self.full_exclude_map
                 
-    def map_regex(self, filename="", text="", pattern_index=-1, pre_process= r"[^a-zA-Z0-9]"):
+    def map_regex(self, filename="", text="", pattern_index=-1, pre_process= r"[^À-ÿa-zA-Z0-9]"):
         """ Creates a coordinate map from the pattern on this data
             generating a coordinate map of hits given (dry run doesn't transform)
         """
@@ -389,7 +389,7 @@ class Philter:
             for word in matchall_list_cleaned:
                 start = start_coordinate
                 stop = start_coordinate + len(word)
-                word_clean = re.sub(r"[^a-zA-Z0-9]+", "", word.lower().strip())
+                word_clean = re.sub(r"[^À-ÿa-zA-Z0-9]+", "", word.lower().strip())
                 if len(word_clean) == 0:
                     #got a blank space or something without any characters or digits, move forward
                     start_coordinate += len(word)
@@ -404,12 +404,12 @@ class Philter:
             self.patterns[pattern_index]["coordinate_map"] = coord_map
 
 
-    def map_regex_context(self, filename="", text="", pattern_index=-1,  pre_process= r"[^a-zA-Z0-9]"):
+    def map_regex_context(self, filename="", text="", pattern_index=-1,  pre_process= r"[^À-ÿa-zA-Z0-9]"):
         """ map_regex_context creates a coordinate map from combined regex + PHI coordinates 
         of all previously mapped patterns
         """
 
-        punctuation_matcher = re.compile(r"[^a-zA-Z0-9*]")
+        punctuation_matcher = re.compile(r"[^À-ÿa-zA-Z0-9*]")
 
         if not os.path.exists(filename):
             raise Exception("Filepath does not exist", filename)
@@ -443,7 +443,7 @@ class Philter:
 
         # 1. Get coordinates of all include and exclude mathches
 
-        punctuation_matcher = re.compile(r"[^a-zA-Z0-9*]")
+        punctuation_matcher = re.compile(r"[^À-ÿa-zA-Z0-9*]")
         # 2. Find all patterns expressions that match regular expression
         matches = regex.finditer(text)
         # print(full_exclud_map)
@@ -511,7 +511,7 @@ class Philter:
         self.patterns[pattern_index]["coordinate_map"] = coord_map
 
 
-    def map_set(self, filename="", text="", pattern_index=-1,  pre_process= r"[^a-zA-Z0-9]"):
+    def map_set(self, filename="", text="", pattern_index=-1,  pre_process= r"[^À-ÿa-zA-Z0-9]"):
         """ Creates a coordinate mapping of words any words in this set"""
         if not os.path.exists(filename):
             raise Exception("Filepath does not exist", filename)
@@ -550,7 +550,7 @@ class Philter:
             stop = start_coordinate + len(word)
 
             # This converts spaces into empty strings, so we know to skip forward to the next real word
-            word_clean = re.sub(r"[^a-zA-Z0-9]+", "", word.lower().strip())
+            word_clean = re.sub(r"[^À-ÿa-zA-Z0-9]+", "", word.lower().strip())
             if len(word_clean) == 0:
                 #got a blank space or something without any characters or digits, move forward
                 start_coordinate += len(word)
@@ -577,7 +577,7 @@ class Philter:
         self.patterns[pattern_index]["coordinate_map"] = coord_map
   
 
-    def map_pos(self, filename="", text="", pattern_index=-1, pre_process= r"[^a-zA-Z0-9]"):
+    def map_pos(self, filename="", text="", pattern_index=-1, pre_process= r"[^À-ÿa-zA-Z0-9]"):
         """ Creates a coordinate mapping of words which match this part of speech (POS)"""
         if not os.path.exists(filename):
             raise Exception("Filepath does not exist", filename)
@@ -605,7 +605,7 @@ class Philter:
             start = start_coordinate
             stop = start_coordinate + len(word)
             #word_clean = self.get_clean_word2(filename,word)
-            word_clean = re.sub(r"[^a-zA-Z0-9]+", "", word.lower().strip())
+            word_clean = re.sub(r"[^À-ÿa-zA-Z0-9]+", "", word.lower().strip())
             if len(word_clean) == 0:
                 #got a blank space or something without any characters or digits, move forward
                 start_coordinate += len(word)
@@ -620,7 +620,7 @@ class Philter:
 
         self.patterns[pattern_index]["coordinate_map"] = coord_map
 
-    def map_ner(self, filename="", text="", pattern_index=-1, pre_process= r"[^a-zA-Z0-9]+"):
+    def map_ner(self, filename="", text="", pattern_index=-1, pre_process= r"[^À-ÿa-zA-Z0-9]+"):
         """ map NER tagging"""
       
         if not os.path.exists(filename):
@@ -812,7 +812,7 @@ class Philter:
     def transform_text_asterisk(self, txt, infilename):        
         last_marker = 0
         current_chunk = []
-        punctuation_matcher = re.compile(r"[^a-zA-Z0-9*]")
+        punctuation_matcher = re.compile(r"[^À-ÿa-zA-Z0-9*]")
 
         #read the text by character, any non-punc non-overlaps will be replaced
         contents = []
@@ -906,7 +906,7 @@ class Philter:
             note_lst, 
             anno_lst,
             filename,
-            punctuation_matcher=re.compile(r"[^a-zA-Z0-9*]"), 
+            punctuation_matcher=re.compile(r"[^À-ÿa-zA-Z0-9*]"), 
             text_matcher=re.compile(r"[a-zA-Z0-9]"), 
             phi_matcher=re.compile(r"\*+")):
         """ 
@@ -926,8 +926,8 @@ class Philter:
             ##### Get coordinates ######
             start = start_coordinate
             stop = start_coordinate + len(note_word)
-            note_word_stripped = re.sub(r"[^a-zA-Z0-9\*]+", "", note_word.strip())
-            anno_word_stripped = re.sub(r"[^a-zA-Z0-9\*]+", "", anno_word.strip())
+            note_word_stripped = re.sub(r"[^À-ÿa-zA-Z0-9\*]+", "", note_word.strip())
+            anno_word_stripped = re.sub(r"[^À-ÿa-zA-Z0-9\*]+", "", anno_word.strip())
             if len(note_word_stripped) == 0:
                 #got a blank space or something without any characters or digits, move forward
                 start_coordinate += len(note_word)
@@ -1019,8 +1019,8 @@ class Philter:
         fn_tags_nocontext = "data/phi/fn_tags.txt",
         fp_tags_nocontext = "data/phi/fp_tags.txt",
         pre_process=r":|\,|\-|\/|_|~", #characters we're going to strip from our notes to analyze against anno        
-        pre_process2= r"[^a-zA-Z0-9]",
-        punctuation_matcher=re.compile(r"[^a-zA-Z0-9\*]")):
+        pre_process2= r"[^À-ÿa-zA-Z0-9]",
+        punctuation_matcher=re.compile(r"[^À-ÿa-zA-Z0-9\*]")):
         """ calculates the effectiveness of the philtering / extraction
 
             only_digits = <boolean> will constrain evaluation on philtering of only digit types
@@ -1132,7 +1132,7 @@ class Philter:
                 for c,w,r in self.seq_eval(philtered_words_cleaned, anno_words_cleaned, f):
 
                     # Double check that we aren't adding blank spaces or single punctionation characters to our lists
-                    if w.isspace() == False and (re.sub(r"[^a-zA-Z0-9\*]+", "", w) != ""):
+                    if w.isspace() == False and (re.sub(r"[^À-ÿa-zA-Z0-9\*]+", "", w) != ""):
 
                         if c == "FP":
                             false_positives.append(w)
@@ -1336,7 +1336,7 @@ class Philter:
             for item in lst:
                 if len(item) > 0:
                     if item.isspace() == False:
-                        split_item = re.split("(\s+)", re.sub(r"[^a-zA-Z0-9]", " ", item))
+                        split_item = re.split("(\s+)", re.sub(r"[^À-ÿa-zA-Z0-9]", " ", item))
                         for elem in split_item:
                             if len(elem) > 0:
                                 cleaned.append(elem)
