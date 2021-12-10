@@ -1,1 +1,1 @@
-\b((O\'[A-Z][aA-zZ]+|[A-Z][aA-zZ]+\s(van|Van|VAN|de|la|La|LA)\s[A-Z][aA-zZ]+)|[A-Z][aA-zZ]+\-[aA-zZ]+\,\s[A-Z][aA-zZ]+)\b
+\b((O\'[À-ÞA-Z][aA-zZ]+|[À-ÞA-Z][aA-zZ]+\s(van|Van|VAN|de|la|La|LA)\s[À-ÞA-Z][aA-zZ]+)|[À-ÞA-Z][aA-zZ]+\-[aA-zZ]+\,\s[À-ÞA-Z][aA-zZ]+)\b

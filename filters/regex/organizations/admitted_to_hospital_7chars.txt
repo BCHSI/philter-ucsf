@@ -1,1 +1,1 @@
-\b(?<=sent to\s|seen at\s|seen in\s|went to\s|been at\s)[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?\b
+\b(?<=sent to\s|seen at\s|seen in\s|went to\s|been at\s)[À-ÞA-Z][À-ÿa-zA-Z]+((\s|\-)[À-ÞA-Z][À-ÿa-zA-Z]+)?((\s|\-)[À-ÞA-Z][À-ÿa-zA-Z]+)?\b

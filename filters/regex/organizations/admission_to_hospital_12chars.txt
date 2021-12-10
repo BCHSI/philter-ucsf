@@ -1,1 +1,1 @@
-\b(?<=admission to\s|admission at\s)[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?\b
+\b(?<=admission to\s|admission at\s)[À-ÞA-Z][À-ÿa-zA-Z]+((\s|\-)[À-ÞA-Z][À-ÿa-zA-Z]+)?((\s|\-)[À-ÞA-Z][À-ÿa-zA-Z]+)?\b
