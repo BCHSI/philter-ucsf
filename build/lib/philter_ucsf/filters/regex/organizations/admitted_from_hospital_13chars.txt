@@ -1,1 +1,1 @@
-\b(?<=admitted from\s|department at\s)[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?\b
+\b(?<=admitted from\s|department at\s)[À-ÞA-Z][À-ÿa-zA-Z]+((\s|\-)[À-ÞA-Z][À-ÿa-zA-Z]+)?((\s|\-)[À-ÞA-Z][À-ÿa-zA-Z]+)?\b

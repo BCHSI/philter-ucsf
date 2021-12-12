@@ -230,7 +230,7 @@ class CoordinateMap:
 		complement_coordinates = list(set(text_coordinates) - set(current_map_coordinates))
 
 		# Remove punctuation from complement coordinates
-		punctuation_matcher = re.compile(r"[^a-zA-Z0-9*]")
+		punctuation_matcher = re.compile(r"[^À-ÿa-zA-Z0-9*]")
 		for i in range(0, len(text)):
 			if punctuation_matcher.match(text[i]):
 				if i in complement_coordinates:

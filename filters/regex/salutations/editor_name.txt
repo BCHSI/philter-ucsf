@@ -1,1 +1,1 @@
-\b(?<=(?i)editor\s)[A-Z][a-zA-Z]+(\,)?\s[A-Z][a-zA-Z]+\s\(\d+\)
+\b(?<=(?i)editor\s)[À-ÞA-Z][À-ÿa-zA-Z]+(\,)?\s[À-ÞA-Z][À-ÿa-zA-Z]+\s\(\d+\)

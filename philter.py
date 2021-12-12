@@ -135,6 +135,8 @@ class Philter:
 
 
     def get_pos(self, filename, cleaned):
+        # nltk.download('averaged_perceptron_tagger')
+
         if self.cache_to_disk:
             pos_path = self.pos_path
             filename = filename.split("/")[-1]
@@ -153,6 +155,7 @@ class Philter:
             if filename not in self.pos_tags:
                 self.pos_tags = {}
                 self.pos_tags[filename] = nltk.pos_tag(cleaned)
+                # print(self.pos_tags[filename])
             return self.pos_tags[filename]
 
 
@@ -165,7 +168,7 @@ class Philter:
     #        self.pos_tags[filename] = nltk.pos_tag(cleaned)
     #    return self.pos_tags[filename]
     
-    def get_clean(self, filename, text, pre_process= r"[^a-zA-Z0-9]"):
+    def get_clean(self, filename, text, pre_process= r"[^À-ÿa-zA-Z0-9]"):
         if filename not in self.cleaned:
             self.cleaned = {}
             # Use pre-process to split sentence by spaces AND symbols, while preserving spaces in the split list
@@ -287,7 +290,7 @@ class Philter:
 
                 encoding = self.detect_encoding(filename)
                 if __debug__: print("reading text from " + filename)
-                txt = open(filename,"r", encoding=encoding['encoding'], errors='surrogateescape').read()
+                txt = open(filename,"r", encoding='utf-8', errors='surrogateescape').read()
 
                 # Get full self.include/exclude map before transform
                 self.data_all_files[filename] = {"text":txt, "phi":[],"non-phi":[]}
@@ -342,7 +345,7 @@ class Philter:
 
         return self.full_exclude_map
                 
-    def map_regex(self, filename="", text="", pattern_index=-1, pre_process= r"[^a-zA-Z0-9]"):
+    def map_regex(self, filename="", text="", pattern_index=-1, pre_process= r"[^À-ÿa-zA-Z0-9]"):
         """ Creates a coordinate map from the pattern on this data
             generating a coordinate map of hits given (dry run doesn't transform)
         """
@@ -389,7 +392,7 @@ class Philter:
             for word in matchall_list_cleaned:
                 start = start_coordinate
                 stop = start_coordinate + len(word)
-                word_clean = re.sub(r"[^a-zA-Z0-9]+", "", word.lower().strip())
+                word_clean = re.sub(r"[^À-ÿa-zA-Z0-9]+", "", word.lower().strip())
                 if len(word_clean) == 0:
                     #got a blank space or something without any characters or digits, move forward
                     start_coordinate += len(word)
@@ -404,12 +407,12 @@ class Philter:
             self.patterns[pattern_index]["coordinate_map"] = coord_map
 
 
-    def map_regex_context(self, filename="", text="", pattern_index=-1,  pre_process= r"[^a-zA-Z0-9]"):
+    def map_regex_context(self, filename="", text="", pattern_index=-1,  pre_process= r"[^À-ÿa-zA-Z0-9]"):
         """ map_regex_context creates a coordinate map from combined regex + PHI coordinates 
         of all previously mapped patterns
         """
 
-        punctuation_matcher = re.compile(r"[^a-zA-Z0-9*]")
+        punctuation_matcher = re.compile(r"[^À-ÿa-zA-Z0-9*]")
 
         if not os.path.exists(filename):
             raise Exception("Filepath does not exist", filename)
@@ -443,7 +446,7 @@ class Philter:
 
         # 1. Get coordinates of all include and exclude mathches
 
-        punctuation_matcher = re.compile(r"[^a-zA-Z0-9*]")
+        punctuation_matcher = re.compile(r"[^À-ÿa-zA-Z0-9*]")
         # 2. Find all patterns expressions that match regular expression
         matches = regex.finditer(text)
         # print(full_exclud_map)
@@ -511,7 +514,7 @@ class Philter:
         self.patterns[pattern_index]["coordinate_map"] = coord_map
 
 
-    def map_set(self, filename="", text="", pattern_index=-1,  pre_process= r"[^a-zA-Z0-9]"):
+    def map_set(self, filename="", text="", pattern_index=-1,  pre_process= r"[^À-ÿa-zA-Z0-9]"):
         """ Creates a coordinate mapping of words any words in this set"""
         if not os.path.exists(filename):
             raise Exception("Filepath does not exist", filename)
@@ -550,7 +553,7 @@ class Philter:
             stop = start_coordinate + len(word)
 
             # This converts spaces into empty strings, so we know to skip forward to the next real word
-            word_clean = re.sub(r"[^a-zA-Z0-9]+", "", word.lower().strip())
+            word_clean = re.sub(r"[^À-ÿa-zA-Z0-9]+", "", word.lower().strip())
             if len(word_clean) == 0:
                 #got a blank space or something without any characters or digits, move forward
                 start_coordinate += len(word)
@@ -577,7 +580,7 @@ class Philter:
         self.patterns[pattern_index]["coordinate_map"] = coord_map
   
 
-    def map_pos(self, filename="", text="", pattern_index=-1, pre_process= r"[^a-zA-Z0-9]"):
+    def map_pos(self, filename="", text="", pattern_index=-1, pre_process= r"[^À-ÿa-zA-Z0-9]"):
         """ Creates a coordinate mapping of words which match this part of speech (POS)"""
         if not os.path.exists(filename):
             raise Exception("Filepath does not exist", filename)
@@ -605,7 +608,7 @@ class Philter:
             start = start_coordinate
             stop = start_coordinate + len(word)
             #word_clean = self.get_clean_word2(filename,word)
-            word_clean = re.sub(r"[^a-zA-Z0-9]+", "", word.lower().strip())
+            word_clean = re.sub(r"[^À-ÿa-zA-Z0-9]+", "", word.lower().strip())
             if len(word_clean) == 0:
                 #got a blank space or something without any characters or digits, move forward
                 start_coordinate += len(word)
@@ -620,7 +623,7 @@ class Philter:
 
         self.patterns[pattern_index]["coordinate_map"] = coord_map
 
-    def map_ner(self, filename="", text="", pattern_index=-1, pre_process= r"[^a-zA-Z0-9]+"):
+    def map_ner(self, filename="", text="", pattern_index=-1, pre_process= r"[^À-ÿa-zA-Z0-9]+"):
         """ map NER tagging"""
       
         if not os.path.exists(filename):
@@ -788,7 +791,10 @@ class Philter:
                 continue  
 
             encoding = self.detect_encoding(filename)
-            txt = open(filename,"r", encoding=encoding['encoding']).read()
+            print(filename, encoding)
+            # if encoding['confidence'] < 0.80:
+            #     encoding['encoding'] = 'iso-8859-1'
+            txt = open(filename,"r", encoding='utf-8').read()
 
 
 
@@ -817,7 +823,7 @@ class Philter:
     def transform_text_asterisk(self, txt, infilename):        
         last_marker = 0
         current_chunk = []
-        punctuation_matcher = re.compile(r"[^a-zA-Z0-9*]")
+        punctuation_matcher = re.compile(r"[^À-ÿa-zA-Z0-9*]")
 
         #read the text by character, any non-punc non-overlaps will be replaced
         contents = []
@@ -912,8 +918,8 @@ class Philter:
             note_lst, 
             anno_lst,
             filename,
-            punctuation_matcher=re.compile(r"[^a-zA-Z0-9*]"), 
-            text_matcher=re.compile(r"[a-zA-Z0-9]"), 
+            punctuation_matcher=re.compile(r"[^À-ÿa-zA-Z0-9*]"), 
+            text_matcher=re.compile(r"[À-ÿa-zA-Z0-9]"), 
             phi_matcher=re.compile(r"\*+")):
         """ 
             Compares two sequences item by item, 
@@ -932,8 +938,8 @@ class Philter:
             ##### Get coordinates ######
             start = start_coordinate
             stop = start_coordinate + len(note_word)
-            note_word_stripped = re.sub(r"[^a-zA-Z0-9\*]+", "", note_word.strip())
-            anno_word_stripped = re.sub(r"[^a-zA-Z0-9\*]+", "", anno_word.strip())
+            note_word_stripped = re.sub(r"[^À-ÿa-zA-Z0-9\*]+", "", note_word.strip())
+            anno_word_stripped = re.sub(r"[^À-ÿa-zA-Z0-9\*]+", "", anno_word.strip())
             if len(note_word_stripped) == 0:
                 #got a blank space or something without any characters or digits, move forward
                 start_coordinate += len(note_word)
@@ -1025,8 +1031,8 @@ class Philter:
         fn_tags_nocontext = "data/phi/fn_tags.txt",
         fp_tags_nocontext = "data/phi/fp_tags.txt",
         pre_process=r":|\,|\-|\/|_|~", #characters we're going to strip from our notes to analyze against anno        
-        pre_process2= r"[^a-zA-Z0-9]",
-        punctuation_matcher=re.compile(r"[^a-zA-Z0-9\*]")):
+        pre_process2= r"[^À-ÿa-zA-Z0-9]",
+        punctuation_matcher=re.compile(r"[^À-ÿa-zA-Z0-9\*]")):
         """ calculates the effectiveness of the philtering / extraction
 
             only_digits = <boolean> will constrain evaluation on philtering of only digit types
@@ -1138,7 +1144,7 @@ class Philter:
                 for c,w,r in self.seq_eval(philtered_words_cleaned, anno_words_cleaned, f):
 
                     # Double check that we aren't adding blank spaces or single punctionation characters to our lists
-                    if w.isspace() == False and (re.sub(r"[^a-zA-Z0-9\*]+", "", w) != ""):
+                    if w.isspace() == False and (re.sub(r"[^À-ÿa-zA-Z0-9\*]+", "", w) != ""):
 
                         if c == "FP":
                             false_positives.append(w)
@@ -1342,7 +1348,7 @@ class Philter:
             for item in lst:
                 if len(item) > 0:
                     if item.isspace() == False:
-                        split_item = re.split("(\s+)", re.sub(r"[^a-zA-Z0-9]", " ", item))
+                        split_item = re.split("(\s+)", re.sub(r"[^À-ÿa-zA-Z0-9]", " ", item))
                         for elem in split_item:
                             if len(elem) > 0:
                                 cleaned.append(elem)
@@ -2271,13 +2277,13 @@ class Philter:
 
                 orig_filename = root+f
                 encoding1 = self.detect_encoding(orig_filename)
-                orig = open(orig_filename,"r", encoding=encoding1['encoding']).read()
+                orig = open(orig_filename,"r", encoding='utf-8').read()
 
                 orig_words = re.split("\s+", orig)
 
                 anno_filename = anno_folder+f.split(".")[0]+anno_suffix
                 encoding2 = self.detect_encoding(anno_filename)
-                anno = open(anno_filename,"r", encoding=encoding2['encoding']).read()
+                anno = open(anno_filename,"r", encoding='utf-8').read()
                 anno_words = re.split("\s+", anno)
 
                 anno_dict = {}
@@ -2401,7 +2407,7 @@ class Philter:
             for c in phi_word:
                 if re.match("\d+", c):
                     wordlst.append(digit_char)
-                elif re.match("[a-zA-Z]+", c):
+                elif re.match("[À-ÿa-zA-Z]+", c):
                     wordlst.append(string_char)
                 else:
                     wordlst.append(c)

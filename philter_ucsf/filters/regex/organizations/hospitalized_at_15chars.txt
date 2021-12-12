@@ -1,1 +1,1 @@
-\b(?<=hospitalized at\s)[A-Z][a-zA-Z]+((\s|\-)[A-Z][a-zA-Z]+)?((\s|\-)[A-Z][a-zA-Z]+)?\b
+\b(?<=hospitalized at\s)[À-ÞA-Z][À-ÿa-zA-Z]+((\s|\-)[À-ÞA-Z][À-ÿa-zA-Z]+)?((\s|\-)[À-ÞA-Z][À-ÿa-zA-Z]+)?\b

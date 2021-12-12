@@ -1,1 +1,1 @@
-\b(((?<=wife\s)|(?<=husband\s)|(?<=mother\s)|(?<=father\s)|(?<=son\s)|(?<=daughter\s))([A-Z][a-z]+(\s[A-Z][a-z]+)?))\b|\b(([A-Z][a-z]+(\s[A-Z][a-z]+)?)((?=\,\shis\spartner)|(?=\,\sher\spartner)|(?=\,\shis\smother)|(?=\,\sher\smother)|(?=\,\shis\sfather)|(?=\,\sher\sfather)))\b
+\b(((?<=wife\s)|(?<=husband\s)|(?<=mother\s)|(?<=father\s)|(?<=son\s)|(?<=daughter\s))([À-ÞA-Z][a-z]+(\s[À-ÞA-Z][a-z]+)?))\b|\b(([À-ÞA-Z][a-z]+(\s[À-ÞA-Z][a-z]+)?)((?=\,\shis\spartner)|(?=\,\sher\spartner)|(?=\,\shis\smother)|(?=\,\sher\smother)|(?=\,\shis\sfather)|(?=\,\sher\sfather)))\b

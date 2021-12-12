@@ -1,1 +1,1 @@
-\b((?<=Present:\s)|(?<=Present:\sYoung\sAdult\,\s))\b([A-Z][a-zA-Z]+\s){1,2}([A-Z]\s)?([A-Z][a-zA-Z]+\s){1,2}
+\b((?<=Present:\s)|(?<=Present:\sYoung\sAdult\,\s))\b([À-ÞA-Z][À-ÿa-zA-Z]+\s){1,2}([À-ÞA-Z]\s)?([À-ÞA-Z][À-ÿa-zA-Z]+\s){1,2}

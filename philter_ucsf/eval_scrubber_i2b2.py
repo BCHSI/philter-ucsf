@@ -69,7 +69,7 @@ def comparison(filename, file1path, file2path, allpositive_dict):
     #annotation_note = re.sub(r'[\/\-\:\~\_]', ' ', annotation_note)
 
     # get a list of sentences within the note , returns a list of lists  [[sent1],[sent2]] 
-    phi_reduced_note = re.sub(r'\[[A-Z]+\]','', phi_reduced_note)
+    phi_reduced_note = re.sub(r'\[[À-ÞA-Z]+\]','', phi_reduced_note)
     phi_reduced_note = re.sub(r'\n',' ', phi_reduced_note)
     phi_reduced_note = re.sub(r'\#{5}\sDOCUMENT.*','',phi_reduced_note)
     phi_reduced_note = re.sub(r'[\/\-\:\~\_]', ' ', phi_reduced_note)

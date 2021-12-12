@@ -1,1 +1,1 @@
-\b(?i)([a-zA-Z]+\s{1,4}[a-zA-Z]+|[a-zA-Z]+)\scounty\b
+\b(?i)([À-ÿa-zA-Z]+\s{1,4}[À-ÿa-zA-Z]+|[À-ÿa-zA-Z]+)\scounty\b
