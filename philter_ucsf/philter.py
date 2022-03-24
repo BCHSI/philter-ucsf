@@ -3,17 +3,11 @@ import warnings
 import json
 import os
 import nltk
-import itertools
-import chardet
 import pickle
 from chardet.universaldetector import UniversalDetector
-from nltk.stem.wordnet import WordNetLemmatizer
 from philter_ucsf.coordinate_map import CoordinateMap
 from nltk.tag.stanford import StanfordNERTagger
 import subprocess
-import numpy
-import random
-import string
 
 
 class Philter:
