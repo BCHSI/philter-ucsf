@@ -114,9 +114,9 @@ def main():
             in_path=args.output,
             anno_path=args.anno,
             anno_suffix=".txt",
-            fn_output = "data/phi/fn.txt",
-            fp_output = "data/phi/fp.txt",
-            summary_output="./data/phi/summary.json",
+            fn_output = philter_config["eval_out"]+"fn.txt",
+            fp_output = philter_config["eval_out"]+"fp.txt",
+            summary_output=philter_config["eval_out"]+"summary.json",
             phi_matcher=re.compile("\*+"),
             pre_process=r":|\,|\-|\/|_|~", #characters we're going to strip from our notes to analyze against anno
             only_digits=False,

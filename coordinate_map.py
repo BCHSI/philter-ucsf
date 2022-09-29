@@ -238,10 +238,10 @@ class CoordinateMap:
 		
 		# Group complement coordinates into ranges
 		def to_ranges(iterable):
-		    iterable = sorted(set(iterable))
-		    for key, group in itertools.groupby(enumerate(iterable), lambda t: t[1] - t[0]):
-		        group = list(group)
-		        yield group[0][1], group[-1][1]+1
+			iterable = sorted(set(iterable))
+			for key, group in itertools.groupby(enumerate(iterable), lambda t: t[1] - t[0]):
+				group = list(group)
+				yield group[0][1], group[-1][1]+1
 
 		complement_coordinate_ranges = list(to_ranges(complement_coordinates))
 

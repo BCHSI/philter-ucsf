@@ -3,6 +3,7 @@ import warnings
 import json
 import os
 import nltk
+nltk.download('averaged_perceptron_tagger')
 import itertools
 import chardet
 import pickle
@@ -281,7 +282,7 @@ class Philter:
 
                 if filename.split(".")[-1] not in allowed_filetypes:
                     if self.verbose:
-                        print("Skipping: ", filename)
+                        print("Skipping 1: ", filename)
                     continue                
                 #self.patterns[i]["coordinate_map"].add_file(filename)
 
@@ -784,7 +785,7 @@ class Philter:
 
             if filename.split(".")[-1] not in allowed_filetypes:
                 if self.verbose:
-                    print("Skipping: ", filename)
+                    print("Skipping 2: ", filename)
                 continue  
 
             encoding = self.detect_encoding(filename)
