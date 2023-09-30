@@ -138,7 +138,7 @@ class Philter:
         if self.cache_to_disk:
             pos_path = self.pos_path
             filename = filename.split("/")[-1]
-            file_ = pos_path + filename
+            file_ = os.path.join( pos_path , filename )
             if filename not in self.pos_tags:
                 self.pos_tags = {}
                 if not os.path.isfile(file_):
@@ -780,7 +780,7 @@ class Philter:
             #keeps a record of all phi coordinates and text for a given file
             # data = {}
         
-            filename = root+f
+            filename = os.path.join( root , f )
 
             if filename.split(".")[-1] not in allowed_filetypes:
                 if self.verbose:
@@ -794,7 +794,7 @@ class Philter:
 
             #now we transform the text
             fbase, fext = os.path.splitext(f)
-            outpathfbase = out_path + fbase
+            outpathfbase = os.path.join( out_path , fbase )
             if self.outformat == "asterisk":
                 with open(outpathfbase+".txt", "w", encoding='utf-8', errors='surrogateescape') as f:
                     contents = self.transform_text_asterisk(txt, filename)
@@ -1079,12 +1079,12 @@ class Philter:
                 true_negatives  = [] #non-phi we correctly identify
                 true_negatives_coords = []
 
-                original_filename = note_path+f
-                philtered_filename = root+f
-                anno_filename = anno_path+''.join(f.split(".")[0])+anno_suffix
+                original_filename = os.path.join( note_path , f )
+                philtered_filename = os.path.join( root , f )
+                anno_filename = os.path.join( anno_path , ''.join(f.split(".")[0])+anno_suffix )
 
                 # if len(anno_suffix) > 0:
-                #     anno_filename = anno_folder+f.split(".")[0]+anno_suffix
+                #     anno_filename = os.path.join( anno_folder , f.split(".")[0]+anno_suffix )
 
                 if not os.path.exists(philtered_filename):
                     raise Exception("FILE DOESNT EXIST", philtered_filename)
@@ -1319,7 +1319,7 @@ class Philter:
         for fn in summary_coords['summary_by_file']:
             # print(self.patterns)
             # get input notes filename (for filter analysis wit coordinatemap)
-            input_filename = self.finpath + os.path.basename(fn)
+            input_filename = os.path.join( self.finpath , os.path.basename(fn) )
 
             current_summary =  summary_coords['summary_by_file'][fn]
 
@@ -2192,27 +2192,27 @@ class Philter:
 
         # Write FN and FP results to outfolder
         # Conext
-        with open(self.eval_outpath + "fn_tags_context.txt", "w") as fn_file:
+        with open( os.path.join( self.eval_outpath , "fn_tags_context.txt" ) , "w") as fn_file:
             fn_file.write("key" + "|" + "note_word" + "|" + "phi_tag" + "|" + "pos_tag" + "|" + "context" + "|" + "filename"+ "|" +"include_exclude" + "|" +"exclude_filters" + "|" +"include_filters" +"\n")
             # print(fn_tags_condensed_context)
             for key in fn_tags_condensed_context:
                 current_list = fn_tags_condensed_context[key]
                 fn_file.write(key + "|" + current_list[0] + "|" + current_list[1] + "|" + current_list[2] + "|" + current_list[3] + "|" + current_list[4]+ "|" +current_list[5]+ "|" +str(current_list[6]) + "|" +str(current_list[7]) + "\n")
         
-        with open(self.eval_outpath + "fp_tags_context.txt", "w") as fp_file:
+        with open( os.path.join( self.eval_outpath , "fp_tags_context.txt" ) , "w") as fp_file:
             fp_file.write("key" + "|" + "note_word" + "|" + "pos_tag" + "|" + "context" + "|" + "filename"+ "|" +"exclude_filters" + "|" +"include_filters" +"\n")
             for key in fp_tags_condensed_context:
                 current_list = fp_tags_condensed_context[key]
                 fp_file.write(key + "|" + current_list[0] + "|" + current_list[1]  + "|" +  current_list[2] + "|" + current_list[3]+ "|" + str(current_list[4]) + "|" + str(current_list[5]) +"\n")
 
         # No context
-        with open(self.eval_outpath + "fn_tags.txt", "w") as fn_file:
+        with open( os.path.join( self.eval_outpath , "fn_tags.txt" ) , "w") as fn_file:
             fn_file.write("key" + "|" + "note_word" + "|" + "phi_tag" + "|" + "pos_tag" + "|" + "occurrences"+"|" +"include_exclude" + "|" +"exclude_filters" + "|" +"include_filters" + "\n")
             for key in fn_tags_condensed:
                 current_list = fn_tags_condensed[key]
                 fn_file.write(key + "|" + current_list[0] + "|" + current_list[1] + "|" + current_list[2] + "|" + str(current_list[3])+"|" + current_list[4]+ "|" + str(current_list[5])+ "|" + str(current_list[6])+"\n")
         
-        with open(self.eval_outpath + "fp_tags.txt", "w") as fp_file:
+        with open( os.path.join( self.eval_outpath , "fp_tags.txt" ) , "w") as fp_file:
             fp_file.write("key" + "|" + "note_word" + "|" + "pos_tag" + "|" + "occurrences"+ "|" +"exclude_filters" + "|" +"include_filters" + "\n")
             for key in fp_tags_condensed:
                 current_list = fp_tags_condensed[key]
@@ -2257,25 +2257,25 @@ class Philter:
            
             for f in files:
                
-                if not os.path.exists(root+f):
-                    raise Exception("FILE DOESNT EXIST", root+f)
+                if not os.path.exists( os.path.join( root , f ) ):
+                    raise Exception("FILE DOESNT EXIST", os.path.join( root , f ) )
 
                 if len(anno_suffix) > 0:
-                    if not os.path.exists(anno_folder+f.split(".")[0]+anno_suffix):
-                        print("FILE DOESNT EXIST", anno_folder+f.split(".")[0]+anno_suffix)
+                    if not os.path.exists( os.path.join( anno_folder , f.split(".")[0]+anno_suffix ) ):
+                        print("FILE DOESNT EXIST", os.path.join( anno_folder , f.split(".")[0]+anno_suffix ) )
                         continue
                 else:
-                    if not os.path.exists(anno_folder+f):
-                        print("FILE DOESNT EXIST", anno_folder+f)
+                    if not os.path.exists( os.path.join( anno_folder , f ) ):
+                        print("FILE DOESNT EXIST", os.path.join( anno_folder , f ) )
                         continue
 
-                orig_filename = root+f
+                orig_filename = os.path.join( root , f )
                 encoding1 = self.detect_encoding(orig_filename)
                 orig = open(orig_filename,"r", encoding=encoding1['encoding']).read()
 
                 orig_words = re.split("\s+", orig)
 
-                anno_filename = anno_folder+f.split(".")[0]+anno_suffix
+                anno_filename = os.path.join( anno_folder , f.split(".")[0]+anno_suffix )
                 encoding2 = self.detect_encoding(anno_filename)
                 anno = open(anno_filename,"r", encoding=encoding2['encoding']).read()
                 anno_words = re.split("\s+", anno)
