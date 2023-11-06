@@ -237,7 +237,14 @@ class Philter:
         with warnings.catch_warnings(): #NOTE: this is not thread safe! but we want to print a more detailed warning message
             warnings.simplefilter(action="error", category=FutureWarning) # in order to print a detailed message
             try:
-                re_compiled = re.compile(regex)
+                # Use of flags not at the start of regex is deprecated.
+                # Adding exception and moving the case insensitive mode to the beginning 
+                # if the regular expression
+                try:
+                    re_compiled = re.compile(regex)
+                except:
+                    regex_tmp = regex.replace('(?i)', '')
+                    re_compiled = re.compile('(?i)' + regex_tmp)
             except FutureWarning as warn:
                 print("FutureWarning: {0} in file ".format(warn) + filepath)
                 warnings.simplefilter(action="ignore", category=FutureWarning)
